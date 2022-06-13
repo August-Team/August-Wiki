@@ -534,7 +534,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "PMtIOE769VHJkDtWEoTp49rzlKFuQVMXr22qi6nX8kM="
+          "hash": "U7ot982sMDjMelP1s5ScVObUMOsXDkWqQNg7fbzVfOs="
         }
       },
       "is_incremental": false,
@@ -710,13 +710,13 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 9,
-          "skipped_file_count": 1
+          "skipped_file_count": 9
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 34,
-          "skipped_file_count": 9
+          "skipped_file_count": 34
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

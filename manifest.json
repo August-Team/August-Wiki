@@ -13,12 +13,420 @@
       "is_incremental": false
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "api/index.md",
+      "type": "ManagedReference",
+      "source_relative_path": "_api/August.AugustAction.yml",
       "output": {
         ".html": {
-          "relative_path": "api/index.html",
-          "hash": "rd7FbkwuoPLxoZ2qfghg2vLoo5raHzreGItkVhFaeXw="
+          "relative_path": "_api/August.AugustAction.html",
+          "hash": "ayRJgvjLOPtw5Tr2WKjI/VTNFjLvYmmoR+0rb30Ajvw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/August.AugustFunc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/August.AugustFunc.html",
+          "hash": "CnPaO2+/6hLDklIZQdxWEQtag6f7qfHWfn1J8xLXlXk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/August.CustomModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/August.CustomModule.html",
+          "hash": "sx8dh1YM3BbIEF3lzQ0mvi/uMggclGSHX9tCIGOjDmQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/August.CustomModuleCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/August.CustomModuleCommand.html",
+          "hash": "SIsaJ9Z4BroFknP5GndOnz5k6i+Vqr4LlNn7vaSnH34="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/August.CustomModuleComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/August.CustomModuleComponent.html",
+          "hash": "y/POyfuW3GeH70dL4WvwE7C6/gs/VFewl2h4g94tUSc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/August.CustomModuleInteraction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/August.CustomModuleInteraction.html",
+          "hash": "vZaMi188yFSIeBUNf+nRYx/dfT+ZdSRhHZW9O6mEM20="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/August.Debug.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/August.Debug.html",
+          "hash": "iSUHO61ZDHP3nwunwgf74n6PDuqRaNhld/T4dVOt2TY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/August.FileController-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/August.FileController-1.html",
+          "hash": "0biog7XVb50THygVbIlm0P4mztVFaGkjuhb7U62gRDE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/August.FileControllerBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/August.FileControllerBase.html",
+          "hash": "azTjWhtXOrGvlh1NPlHu8DBspekxNcvMkUr5qZlVbic="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/August.FileFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/August.FileFormat.html",
+          "hash": "8X8n2g+IAXDF2gReOFwg/9c/GqoyY3NzFXcdcJ1iAxE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/August.FileType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/August.FileType.html",
+          "hash": "iSCihpKKN1dWBhMLWJfoJriuiLxFdrzZ9Y5TE8jbrU0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/August.FrameworkCommandAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/August.FrameworkCommandAttribute.html",
+          "hash": "8HiDK/LVLRiRP2TFsJBaMt+U7U3LPl9Whx4j1wMesZ0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/August.FrameworkCommandPermission.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/August.FrameworkCommandPermission.html",
+          "hash": "OMGCd+VxCZG5qWxCa2NzUSRglDBSQYhEPaTAohThauQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/August.FrameworkContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/August.FrameworkContext.html",
+          "hash": "GX0bkr9TBr3bFCt7Sb+LAChpcd9l/kecsQn1DUmm2zQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/August.FrameworkDescriptionAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/August.FrameworkDescriptionAttribute.html",
+          "hash": "fDp3Nqcibo3UPr+yaBrluDjQ/IneHGOVUIymahjAvas="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/August.FrameworkFileFormatAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/August.FrameworkFileFormatAttribute.html",
+          "hash": "uyFsoiMzDmIR4Jgu8ueFSzVnGri/2h0v2hOV0KmDHcE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/August.FrameworkFilePathAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/August.FrameworkFilePathAttribute.html",
+          "hash": "lomhlXNY+qcRe7jvH4q+qXHVQZnmbgc/48J+uSOJxwU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/August.FrameworkGroupAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/August.FrameworkGroupAttribute.html",
+          "hash": "0rm5ZTIfpX1/Hl0n7DtsUJ8OG7AG53tpSmaChsri1oo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/August.ICustomModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/August.ICustomModule.html",
+          "hash": "H0p/nG4Fmpf2pA++h/qGtwsqM5W77rFhm6VS8PIC500="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/August.ICustomModuleComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/August.ICustomModuleComponent.html",
+          "hash": "z5U13lqf3WGY/Cg8JIYJMzMkU0tAG7tKLCW3IXFEyDY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/August.IDebug.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/August.IDebug.html",
+          "hash": "xbgL15GDWKw6cgkw4fL9KOYSrp7ImqMkmqUrHP1NKGM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/August.ModalComponentData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/August.ModalComponentData.html",
+          "hash": "vn/NDp5Biwdp6VDWiYEfGjUiQ27WgBQJvNyNhQSr/FY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/August.ModalResultData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/August.ModalResultData.html",
+          "hash": "t611WoikOqAROMhBfcjyleX7wIz+RLAC+qMtLwBGpPM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/August.Setup.GlobalPath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/August.Setup.GlobalPath.html",
+          "hash": "gQzF33yRnxXdUsJX9zXwxoMAAJKirVRbLJaeWqc65qQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/August.Setup.Properties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/August.Setup.Properties.html",
+          "hash": "IrcMck/aVc7AiGOrAeik3lgwOriN93t3eKEihbeNpC8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/August.Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/August.Setup.html",
+          "hash": "XY08xHXWXRjL9bZCzxp3KaoX3UhK12shOhaH+btgCuc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/August.Struct.BotSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/August.Struct.BotSetting.html",
+          "hash": "aD3zX2xTddjFRKj0YPUovRxUYgZQc7WwJfqiKrcl07I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/August.Struct.BotSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/August.Struct.BotSettings.html",
+          "hash": "mF2QDV2L/DJvhY9FmiOWEHDQncitGJiqF41wDAq0Qr0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/August.Struct.ExecutionSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/August.Struct.ExecutionSetting.html",
+          "hash": "0K02VShA5SCiFswnOf1aA0WbrDId5nwOHOTGxYXlcC4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/August.Struct.GatewayIntent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/August.Struct.GatewayIntent.html",
+          "hash": "zyv4hr0GX4B+oBfMRRmRu4Q9mfYzRUInDnNCtGOObKo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/August.Struct.ModuleHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/August.Struct.ModuleHeader.html",
+          "hash": "x8OccapyTcPeLuCbpsP+RbaPxrimKczWwSVmLH5UG2k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/August.Struct.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/August.Struct.html",
+          "hash": "Bgi9sSCYUwkkIxc1GvMWCxHErBPkbveVH9eeBWDuNto="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/August.TextFileReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/August.TextFileReader.html",
+          "hash": "QQHbynxdwAyeqOMI5GbhXnID1xIrXxWuHS6cyLMuzwE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/August.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/August.html",
+          "hash": "TBrATTfIhK+EMx0Gm43XWD6BPEZcFIe1Rb96Au7nZfg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "_api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/toc.html",
+          "hash": "XiVi2uFEYn8zPn0FZZAQJTmlPekeLw5f9nizVr8PM1M="
         }
       },
       "is_incremental": false,
@@ -26,11 +434,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/content2.md",
+      "source_relative_path": "articles/Advanced.md",
       "output": {
         ".html": {
-          "relative_path": "articles/content2.html",
-          "hash": "Fbt1s75fAEX2MPwqU02oo96A3PUHK9I4YdWSpKGYYZk="
+          "relative_path": "articles/Advanced.html",
+          "hash": "gYicocgpQmEytMQ8bYlHqLUlvhuLTeuqTHHb2x7Uw0M="
         }
       },
       "is_incremental": false,
@@ -38,11 +446,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/content3.md",
+      "source_relative_path": "articles/BuildIn.md",
       "output": {
         ".html": {
-          "relative_path": "articles/content3.html",
-          "hash": "0D+1As6PzAQD2WX2//zmBUogjSjHnWjsDGoaLQM36vk="
+          "relative_path": "articles/BuildIn.html",
+          "hash": "AzvtRqKGk7FCo06gSsSeE2mB6W1n/eQZZ2b5tpr6ucQ="
         }
       },
       "is_incremental": false,
@@ -50,11 +458,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/content4.md",
+      "source_relative_path": "articles/Guide.md",
       "output": {
         ".html": {
-          "relative_path": "articles/content4.html",
-          "hash": "Wlf75VnlYCfIEz/MWxpHKg4OS2Q2bWWb+U5/4tPilWU="
+          "relative_path": "articles/Guide.html",
+          "hash": "8y6dWSPOhtMGVqZZPBJtTHgPK1J4H5Ydwe5YkJCSP2M="
         }
       },
       "is_incremental": false,
@@ -62,11 +470,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/content5.md",
+      "source_relative_path": "articles/Guide/Config.md",
       "output": {
         ".html": {
-          "relative_path": "articles/content5.html",
-          "hash": "y8B9/kPfiI0P82SFcpgOw7t4GpFr9YY8C2f7qIkdbOs="
+          "relative_path": "articles/Guide/Config.html",
+          "hash": "DChBmJ5TBi7owSNpFleGbk4ywWky5S2E4F1XLHqJOn8="
         }
       },
       "is_incremental": false,
@@ -74,11 +482,35 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/content6.md",
+      "source_relative_path": "articles/Guide/CreateBot.md",
       "output": {
         ".html": {
-          "relative_path": "articles/content6.html",
-          "hash": "ndwGYRcrwnEkuJpwrxm70eWwk5+zgFtQYqm5u1krCG0="
+          "relative_path": "articles/Guide/CreateBot.html",
+          "hash": "Y6t+lXd2KCMOD/aSGxLnbsZhiRGF3bqwB8sUicWBTEA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Guide/ImportMod.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Guide/ImportMod.html",
+          "hash": "DChBmJ5TBi7owSNpFleGbk4ywWky5S2E4F1XLHqJOn8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Guide/Installation.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Guide/Installation.html",
+          "hash": "zkLzQ+XV/OIWJlDasvLTAC7EGs1Gm6EhXgSFmwPuVpA="
         }
       },
       "is_incremental": false,
@@ -90,7 +522,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "8rKRZxyLZvnUs/Z9lN7maFx2hgCHec0zlUXNPIl1MmQ="
+          "hash": "LMNofKH9oIZQni2gCnY6uPiYgdjnlNl/0f+/M02a6Rc="
         }
       },
       "is_incremental": false,
@@ -102,7 +534,18 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "+Wkmw5xSP8Suq2V1EEnI/0eIkht2DKD5s2q2RRPQfyM="
+          "hash": "PMtIOE769VHJkDtWEoTp49rzlKFuQVMXr22qi6nX8kM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/bot_setting.json",
+      "output": {
+        "resource": {
+          "relative_path": "images/bot_setting.json"
         }
       },
       "is_incremental": false,
@@ -164,6 +607,72 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "images/first_success.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/first_success.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/firsttime.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/firsttime.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/framework_zip.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/framework_zip.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/github_bot_png.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/github_bot_png.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/second_init_error.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/second_init_error.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/stacking_bot.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/stacking_bot.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
@@ -181,7 +690,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "N+fwVdyWSsAyPNdwN+RJBz6DASD0dP4+k4f4cQ4X/RI="
+          "hash": "pGzGpUqjtj00+OgcFmbghRxCfYuKX0f8EeB9ezzovPg="
         }
       },
       "is_incremental": false,
@@ -191,19 +700,23 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "NoAvailableBuildCache"
+        "skipped_file_count": 0
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 8,
-          "skipped_file_count": 0
+          "total_file_count": 9,
+          "skipped_file_count": 1
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 34,
+          "skipped_file_count": 9
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

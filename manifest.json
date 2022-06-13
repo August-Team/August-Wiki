@@ -1,0 +1,241 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/chuel/Desktop/EllyDiscordBot/Wiki",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "rd7FbkwuoPLxoZ2qfghg2vLoo5raHzreGItkVhFaeXw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/content2.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/content2.html",
+          "hash": "Fbt1s75fAEX2MPwqU02oo96A3PUHK9I4YdWSpKGYYZk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/content3.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/content3.html",
+          "hash": "0D+1As6PzAQD2WX2//zmBUogjSjHnWjsDGoaLQM36vk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/content4.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/content4.html",
+          "hash": "Wlf75VnlYCfIEz/MWxpHKg4OS2Q2bWWb+U5/4tPilWU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/content5.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/content5.html",
+          "hash": "y8B9/kPfiI0P82SFcpgOw7t4GpFr9YY8C2f7qIkdbOs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/content6.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/content6.html",
+          "hash": "ndwGYRcrwnEkuJpwrxm70eWwk5+zgFtQYqm5u1krCG0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "8rKRZxyLZvnUs/Z9lN7maFx2hgCHec0zlUXNPIl1MmQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "+Wkmw5xSP8Suq2V1EEnI/0eIkht2DKD5s2q2RRPQfyM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/discordfx-mobile-screenshots.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/discordfx-mobile-screenshots.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/discordfx-screenshot01.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/discordfx-screenshot01.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/discordfx_screenshot_smartphone01.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/discordfx_screenshot_smartphone01.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/discordfx_screenshot_smartphone02.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/discordfx_screenshot_smartphone02.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/discordfx_screenshot_tablet01.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/discordfx_screenshot_tablet01.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "Yc7tgaNgqEZTrBtsklIFCToHMJ+4umSZRQVf992Ys4E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "N+fwVdyWSsAyPNdwN+RJBz6DASD0dP4+k4f4cQ4X/RI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 8,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

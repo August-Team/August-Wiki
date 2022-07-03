@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/chuel/Desktop/EllyDiscordBot/Wiki",
+  "source_base_path": "C:/Users/chuel/Desktop/August/August/Wiki",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "api/August.AugustAction.html",
-          "hash": "ayRJgvjLOPtw5Tr2WKjI/VTNFjLvYmmoR+0rb30Ajvw="
+          "hash": "Imy3r7yuOh5LgwZryUI1w/St6J+zlrbHhZYrTOeWvoA="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,43 @@
       "output": {
         ".html": {
           "relative_path": "api/August.AugustFunc.html",
-          "hash": "CnPaO2+/6hLDklIZQdxWEQtag6f7qfHWfn1J8xLXlXk="
+          "hash": "7Ul/KNgFEKc8o0HdIQCVsPElA+1B4ngZpjDE+/hLR8U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/August.ButtonDataResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/August.ButtonDataResult.html",
+          "hash": "PLb+vFgZBVjhn+9n/zdj5xkPLzafUVEyUiGPrWkJOWM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/August.ButtonInteractionAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/August.ButtonInteractionAttribute.html",
+          "hash": "UJyqvE0oKVFY6gx1gFJWM2ou1SIkdqVnMPtJ+jCFiTU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/August.ComponentData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/August.ComponentData.html",
+          "hash": "n0TrxevrUmhlkWvWPph6F2p2KoaUMuY52JF5Ehdlr+U="
         }
       },
       "is_incremental": false,
@@ -42,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/August.CustomModule.html",
-          "hash": "5ACJsklVbcbhgFl7loD8/FRnvhOAKfYbv4/PMZfw75U="
+          "hash": "tPUxq80FWT/fl9EF7seG4x8khNMjXt1HoLdNIJLBSNA="
         }
       },
       "is_incremental": false,
@@ -54,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/August.CustomModuleCommand.html",
-          "hash": "SIsaJ9Z4BroFknP5GndOnz5k6i+Vqr4LlNn7vaSnH34="
+          "hash": "NqC3uiE5SFwBO0sDLK0XMkQ8t4H2JrezYZscJMxHRok="
         }
       },
       "is_incremental": false,
@@ -66,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/August.CustomModuleComponent.html",
-          "hash": "y/POyfuW3GeH70dL4WvwE7C6/gs/VFewl2h4g94tUSc="
+          "hash": "W4qaYOLCSyVq43eAImwDMXjqjhOZ3DYA3eIixjkv+sI="
         }
       },
       "is_incremental": false,
@@ -78,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/August.CustomModuleInteraction.html",
-          "hash": "vZaMi188yFSIeBUNf+nRYx/dfT+ZdSRhHZW9O6mEM20="
+          "hash": "t/HMAVpLNJdKSM8bQ29pHz9DHy1WcbGpU4CF4c0ULF0="
         }
       },
       "is_incremental": false,
@@ -90,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/August.Debug.html",
-          "hash": "QNE8hmkjcPaoptRE6SjQDIC+V1vrdZAddFEA6XmOx5A="
+          "hash": "IQDl7kxyn6r5jZTC8MrQqocgNxve7ZEBsJqJPXsQS4E="
         }
       },
       "is_incremental": false,
@@ -102,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/August.FileController-1.html",
-          "hash": "umeSLELE26foPrOPpVaHiBwfBQe3nTQplwkhElHPtV4="
+          "hash": "+177M3Jut3nMC/QTv7H9B8Zv9lV84adtJMZIlMTh3a8="
         }
       },
       "is_incremental": false,
@@ -114,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/August.FileControllerBase.html",
-          "hash": "TYoR2686fYXe6swAv6QKdPhe3Jni+LiruVtxd+/E/0I="
+          "hash": "Qoipk2lmDK0aS36j1VdlDhx7nfYLkAP9HE31VFh8oas="
         }
       },
       "is_incremental": false,
@@ -150,7 +186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/August.FrameworkCommandAttribute.html",
-          "hash": "8HiDK/LVLRiRP2TFsJBaMt+U7U3LPl9Whx4j1wMesZ0="
+          "hash": "y7llfszzvO6pC4hXNe2TF+If6ImOgczJG+po8z8emPw="
         }
       },
       "is_incremental": false,
@@ -174,7 +210,7 @@
       "output": {
         ".html": {
           "relative_path": "api/August.FrameworkContext.html",
-          "hash": "GX0bkr9TBr3bFCt7Sb+LAChpcd9l/kecsQn1DUmm2zQ="
+          "hash": "xrjYgWxs5zdS7NS7y+cwnyD2QLB9PvVCK1zm8rksLWs="
         }
       },
       "is_incremental": false,
@@ -186,7 +222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/August.FrameworkDescriptionAttribute.html",
-          "hash": "fDp3Nqcibo3UPr+yaBrluDjQ/IneHGOVUIymahjAvas="
+          "hash": "gZKkXCZoKk0VaMrAuYk1fd5A7GbU+07fLeJrDXcqIL4="
         }
       },
       "is_incremental": false,
@@ -198,7 +234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/August.FrameworkFileFormatAttribute.html",
-          "hash": "uyFsoiMzDmIR4Jgu8ueFSzVnGri/2h0v2hOV0KmDHcE="
+          "hash": "1iEBTcJo+leAeOV6qCnuJd3w17By8ry3Bhsv0SNnHH8="
         }
       },
       "is_incremental": false,
@@ -210,7 +246,7 @@
       "output": {
         ".html": {
           "relative_path": "api/August.FrameworkFilePathAttribute.html",
-          "hash": "lomhlXNY+qcRe7jvH4q+qXHVQZnmbgc/48J+uSOJxwU="
+          "hash": "OpvrM5ac+claIMfxfMzfutHGE8tkRdKGhfZnaz6HWy8="
         }
       },
       "is_incremental": false,
@@ -222,7 +258,31 @@
       "output": {
         ".html": {
           "relative_path": "api/August.FrameworkGroupAttribute.html",
-          "hash": "0rm5ZTIfpX1/Hl0n7DtsUJ8OG7AG53tpSmaChsri1oo="
+          "hash": "x7Huz3fv38x3UL4OjuITTjdnzr3+mGtnhCrtU9qQzZ8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/August.GlobalPath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/August.GlobalPath.html",
+          "hash": "X1W7u98PDhPnY7DsprGhM1FPrm/MTvMo2FKZ5ros9l8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/August.IController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/August.IController.html",
+          "hash": "g92Absi4SDjA9NzDY5AsTpEawOKr+bv7ME3ARWPJaQE="
         }
       },
       "is_incremental": false,
@@ -234,7 +294,7 @@
       "output": {
         ".html": {
           "relative_path": "api/August.ICustomModule.html",
-          "hash": "9+Dd9/Z901LtLxZZjKad32X141d7WL3fYuCku1V8LTc="
+          "hash": "vUigu/1kcPcCGrTvrjqSpOTQ5r1x2ls/+AwD8+hxzrg="
         }
       },
       "is_incremental": false,
@@ -242,11 +302,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/August.ICustomModuleComponent.yml",
+      "source_relative_path": "api/August.ICustomModuleEvent.yml",
       "output": {
         ".html": {
-          "relative_path": "api/August.ICustomModuleComponent.html",
-          "hash": "z5U13lqf3WGY/Cg8JIYJMzMkU0tAG7tKLCW3IXFEyDY="
+          "relative_path": "api/August.ICustomModuleEvent.html",
+          "hash": "5ZIQhnfDM1Hy2rUorCwaE9IxcwKDix0VhSQ0aPYSGKg="
         }
       },
       "is_incremental": false,
@@ -258,19 +318,7 @@
       "output": {
         ".html": {
           "relative_path": "api/August.IDebug.html",
-          "hash": "xbgL15GDWKw6cgkw4fL9KOYSrp7ImqMkmqUrHP1NKGM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/August.ModalComponentData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/August.ModalComponentData.html",
-          "hash": "3PISCM5TODozcfA+cPcTYXu02UqZ/jQ6G7a2l2awq2U="
+          "hash": "/rMVrO7Q1xqCInXX1osT9GWa4WsBVSpoUh0TQ5Le0PI="
         }
       },
       "is_incremental": false,
@@ -282,7 +330,7 @@
       "output": {
         ".html": {
           "relative_path": "api/August.ModalResultData.html",
-          "hash": "JX/4wOhoHgPL3RHq0Jpzg4hLw02LjwEDdMjh33DeOrI="
+          "hash": "Ju86F9Zp4Vd8QIpc+HM1s2rEkUzh7/mV83C85cK9Un4="
         }
       },
       "is_incremental": false,
@@ -290,11 +338,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/August.Setup.GlobalPath.yml",
+      "source_relative_path": "api/August.ModuleManager.yml",
       "output": {
         ".html": {
-          "relative_path": "api/August.Setup.GlobalPath.html",
-          "hash": "pGNdfDBl4JrlvuVLQHtFrmnBT2IRorlEva2VAK/UtAQ="
+          "relative_path": "api/August.ModuleManager.html",
+          "hash": "okpqx9+mM6BTRyVK1HnHAV/+b+IpMV145Fd18QdSTJM="
         }
       },
       "is_incremental": false,
@@ -302,11 +350,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/August.Setup.Properties.yml",
+      "source_relative_path": "api/August.SelectMenuDataResult.yml",
       "output": {
         ".html": {
-          "relative_path": "api/August.Setup.Properties.html",
-          "hash": "QAULE+MfTryEdxZm5mxtrn6jv/0zFDtOcfuhH6xdPf0="
+          "relative_path": "api/August.SelectMenuDataResult.html",
+          "hash": "CA/q6EckcLqHY64AHqm9vnFJnnfJcKz3+FtOe7LOEMQ="
         }
       },
       "is_incremental": false,
@@ -314,11 +362,23 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/August.Setup.yml",
+      "source_relative_path": "api/August.SelectMenuInteractionAttribute.yml",
       "output": {
         ".html": {
-          "relative_path": "api/August.Setup.html",
-          "hash": "vANwZNVLJ2uRzSX0uKYvvtJm0DawgXq7lEXjANSLiZk="
+          "relative_path": "api/August.SelectMenuInteractionAttribute.html",
+          "hash": "cAj0bYe7PKmiJjNdkCb1gnWOdzmXioqnGfsdMiBY7qY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/August.Struct.BotCommandList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/August.Struct.BotCommandList.html",
+          "hash": "7OikqUMYU/VvyuWSHFUeyS8qP7iWLiZbJnJ7Egjeh1s="
         }
       },
       "is_incremental": false,
@@ -330,7 +390,7 @@
       "output": {
         ".html": {
           "relative_path": "api/August.Struct.BotSetting.html",
-          "hash": "6XACrhOSIL60ZR24C4WwDWQbcvXCHimFt5elYAVu+VQ="
+          "hash": "tSOifoClDD2hNYRp5b6XseK7KfV5rtSimR7d8aEHWLA="
         }
       },
       "is_incremental": false,
@@ -342,7 +402,19 @@
       "output": {
         ".html": {
           "relative_path": "api/August.Struct.BotSettings.html",
-          "hash": "pxMO8c72hREDR5dZ3eyaOq302jva9UtWmB7SAqekNQg="
+          "hash": "/fNNnq+9I2w18sAhA3ifyFuOo5Lh8vH3yuS+SBZWVwA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/August.Struct.BotStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/August.Struct.BotStatus.html",
+          "hash": "meFUdT7oIjZNT1ntLDJNQnIdFB4SlQDMCfTzKR+ep+U="
         }
       },
       "is_incremental": false,
@@ -354,7 +426,7 @@
       "output": {
         ".html": {
           "relative_path": "api/August.Struct.ExecutionSetting.html",
-          "hash": "cGE3fP8oXW4akivFSWQRqxrh/prjYBfEKW2EsFolk60="
+          "hash": "5Z5em4W1n9XzbuiZ50uSqspO3yCHeeH6HfnbHnge6fY="
         }
       },
       "is_incremental": false,
@@ -366,7 +438,31 @@
       "output": {
         ".html": {
           "relative_path": "api/August.Struct.GatewayIntent.html",
-          "hash": "wUEghqaYlGL2CHNvgp2q5zAmOxQ+ujKanFWbUriU9a0="
+          "hash": "12BbeNujnem/uhGWs04xeYqUEYbdx5Xi8kuoSz0v6GY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/August.Struct.GatewayIntentExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/August.Struct.GatewayIntentExtensions.html",
+          "hash": "4MX2iqfNryJzza18UNrynOWy0oSja5QzkNzvqFeJhEw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/August.Struct.ModuleCommandList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/August.Struct.ModuleCommandList.html",
+          "hash": "rH/bUa7WqenIeZdSuqzqX0ca7e61M9ChaXlHidS96SA="
         }
       },
       "is_incremental": false,
@@ -378,7 +474,19 @@
       "output": {
         ".html": {
           "relative_path": "api/August.Struct.ModuleHeader.html",
-          "hash": "uuLlD6Hox/5rT65Yka+Addpk8pdnpINIwbVgSMFtV24="
+          "hash": "Qb/pjGB8NCPPSQXKxP3bMc96yaKyxg52/jc8mHthvtE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/August.Struct.Properties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/August.Struct.Properties.html",
+          "hash": "MS3xVMnPCl/YC+PTI+bRBW60VthO0X6F2QJOA7K8CjY="
         }
       },
       "is_incremental": false,
@@ -390,7 +498,7 @@
       "output": {
         ".html": {
           "relative_path": "api/August.Struct.html",
-          "hash": "75NBUP3LVSGfXr2p25LQQ3AlyGx5lCP/oWAeoZpfojY="
+          "hash": "aNq9rKt5h39ypjwPQZ8HHj8VwVazSNC8ExPcrPYeiTM="
         }
       },
       "is_incremental": false,
@@ -402,7 +510,7 @@
       "output": {
         ".html": {
           "relative_path": "api/August.TextFileReader.html",
-          "hash": "g7LRs1VhkVk/k2uz9aB73pDjpUTPRKiuomzOMdHLtkM="
+          "hash": "Eory7hdN+wHDKzflZzDP0uLXD27y1MN/939DSgRjeXE="
         }
       },
       "is_incremental": false,
@@ -414,7 +522,7 @@
       "output": {
         ".html": {
           "relative_path": "api/August.html",
-          "hash": "E4sScwMXRaaSugbbrsYDgvM/tZXgrTsyNN82mRxwCPI="
+          "hash": "TPLOf7ku0OR/2DA+6FjgaGyxbVLo1CZB0VGITn0hKGU="
         }
       },
       "is_incremental": false,
@@ -426,7 +534,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "XiVi2uFEYn8zPn0FZZAQJTmlPekeLw5f9nizVr8PM1M="
+          "hash": "1E+WqOQmpZqfoamk/XQuhsKSQCp4gOJ3/JLN9ZImefY="
         }
       },
       "is_incremental": false,
@@ -713,11 +821,10 @@
           "skipped_file_count": 9
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ManagedReferenceDocumentProcessor disable incremental build because last build doesn't contain version .",
+          "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 34,
-          "skipped_file_count": 0
+          "total_file_count": 43,
+          "skipped_file_count": 26
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

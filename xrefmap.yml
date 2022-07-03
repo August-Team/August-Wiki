@@ -129,6 +129,86 @@ references:
   isSpec: "True"
   fullName: August.AugustFunc.Vaild
   nameWithType: AugustFunc.Vaild
+- uid: August.ButtonDataResult
+  name: ButtonDataResult
+  href: api/August.ButtonDataResult.html
+  commentId: T:August.ButtonDataResult
+  fullName: August.ButtonDataResult
+  nameWithType: ButtonDataResult
+- uid: August.ButtonDataResult.data
+  name: data
+  href: api/August.ButtonDataResult.html#August_ButtonDataResult_data
+  commentId: F:August.ButtonDataResult.data
+  fullName: August.ButtonDataResult.data
+  nameWithType: ButtonDataResult.data
+- uid: August.ButtonDataResult.interaction
+  name: interaction
+  href: api/August.ButtonDataResult.html#August_ButtonDataResult_interaction
+  commentId: F:August.ButtonDataResult.interaction
+  fullName: August.ButtonDataResult.interaction
+  nameWithType: ButtonDataResult.interaction
+- uid: August.ButtonInteractionAttribute
+  name: ButtonInteractionAttribute
+  href: api/August.ButtonInteractionAttribute.html
+  commentId: T:August.ButtonInteractionAttribute
+  fullName: August.ButtonInteractionAttribute
+  nameWithType: ButtonInteractionAttribute
+- uid: August.ButtonInteractionAttribute.#ctor(System.String)
+  name: ButtonInteractionAttribute(String)
+  href: api/August.ButtonInteractionAttribute.html#August_ButtonInteractionAttribute__ctor_System_String_
+  commentId: M:August.ButtonInteractionAttribute.#ctor(System.String)
+  fullName: August.ButtonInteractionAttribute.ButtonInteractionAttribute(System.String)
+  nameWithType: ButtonInteractionAttribute.ButtonInteractionAttribute(String)
+- uid: August.ButtonInteractionAttribute.#ctor*
+  name: ButtonInteractionAttribute
+  href: api/August.ButtonInteractionAttribute.html#August_ButtonInteractionAttribute__ctor_
+  commentId: Overload:August.ButtonInteractionAttribute.#ctor
+  isSpec: "True"
+  fullName: August.ButtonInteractionAttribute.ButtonInteractionAttribute
+  nameWithType: ButtonInteractionAttribute.ButtonInteractionAttribute
+- uid: August.ButtonInteractionAttribute.CustomId
+  name: CustomId
+  href: api/August.ButtonInteractionAttribute.html#August_ButtonInteractionAttribute_CustomId
+  commentId: P:August.ButtonInteractionAttribute.CustomId
+  fullName: August.ButtonInteractionAttribute.CustomId
+  nameWithType: ButtonInteractionAttribute.CustomId
+- uid: August.ButtonInteractionAttribute.CustomId*
+  name: CustomId
+  href: api/August.ButtonInteractionAttribute.html#August_ButtonInteractionAttribute_CustomId_
+  commentId: Overload:August.ButtonInteractionAttribute.CustomId
+  isSpec: "True"
+  fullName: August.ButtonInteractionAttribute.CustomId
+  nameWithType: ButtonInteractionAttribute.CustomId
+- uid: August.ComponentData
+  name: ComponentData
+  href: api/August.ComponentData.html
+  commentId: T:August.ComponentData
+  fullName: August.ComponentData
+  nameWithType: ComponentData
+- uid: August.ComponentData.CustomId
+  name: CustomId
+  href: api/August.ComponentData.html#August_ComponentData_CustomId
+  commentId: F:August.ComponentData.CustomId
+  fullName: August.ComponentData.CustomId
+  nameWithType: ComponentData.CustomId
+- uid: August.ComponentData.Type
+  name: Type
+  href: api/August.ComponentData.html#August_ComponentData_Type
+  commentId: F:August.ComponentData.Type
+  fullName: August.ComponentData.Type
+  nameWithType: ComponentData.Type
+- uid: August.ComponentData.Value
+  name: Value
+  href: api/August.ComponentData.html#August_ComponentData_Value
+  commentId: F:August.ComponentData.Value
+  fullName: August.ComponentData.Value
+  nameWithType: ComponentData.Value
+- uid: August.ComponentData.Values
+  name: Values
+  href: api/August.ComponentData.html#August_ComponentData_Values
+  commentId: F:August.ComponentData.Values
+  fullName: August.ComponentData.Values
+  nameWithType: ComponentData.Values
 - uid: August.CustomModule
   name: CustomModule
   href: api/August.CustomModule.html
@@ -174,6 +254,19 @@ references:
   isSpec: "True"
   fullName: August.CustomModule.DataPath
   nameWithType: CustomModule.DataPath
+- uid: August.CustomModule.Exit
+  name: Exit()
+  href: api/August.CustomModule.html#August_CustomModule_Exit
+  commentId: M:August.CustomModule.Exit
+  fullName: August.CustomModule.Exit()
+  nameWithType: CustomModule.Exit()
+- uid: August.CustomModule.Exit*
+  name: Exit
+  href: api/August.CustomModule.html#August_CustomModule_Exit_
+  commentId: Overload:August.CustomModule.Exit
+  isSpec: "True"
+  fullName: August.CustomModule.Exit
+  nameWithType: CustomModule.Exit
 - uid: August.CustomModule.frameworkContext
   name: frameworkContext
   href: api/August.CustomModule.html#August_CustomModule_frameworkContext
@@ -213,6 +306,32 @@ references:
   isSpec: "True"
   fullName: August.CustomModule.Initialize
   nameWithType: CustomModule.Initialize
+- uid: August.CustomModule.ModuleLoaded
+  name: ModuleLoaded()
+  href: api/August.CustomModule.html#August_CustomModule_ModuleLoaded
+  commentId: M:August.CustomModule.ModuleLoaded
+  fullName: August.CustomModule.ModuleLoaded()
+  nameWithType: CustomModule.ModuleLoaded()
+- uid: August.CustomModule.ModuleLoaded*
+  name: ModuleLoaded
+  href: api/August.CustomModule.html#August_CustomModule_ModuleLoaded_
+  commentId: Overload:August.CustomModule.ModuleLoaded
+  isSpec: "True"
+  fullName: August.CustomModule.ModuleLoaded
+  nameWithType: CustomModule.ModuleLoaded
+- uid: August.CustomModule.ModuleUnloading
+  name: ModuleUnloading()
+  href: api/August.CustomModule.html#August_CustomModule_ModuleUnloading
+  commentId: M:August.CustomModule.ModuleUnloading
+  fullName: August.CustomModule.ModuleUnloading()
+  nameWithType: CustomModule.ModuleUnloading()
+- uid: August.CustomModule.ModuleUnloading*
+  name: ModuleUnloading
+  href: api/August.CustomModule.html#August_CustomModule_ModuleUnloading_
+  commentId: Overload:August.CustomModule.ModuleUnloading
+  isSpec: "True"
+  fullName: August.CustomModule.ModuleUnloading
+  nameWithType: CustomModule.ModuleUnloading
 - uid: August.CustomModule.Start
   name: Start()
   href: api/August.CustomModule.html#August_CustomModule_Start
@@ -245,18 +364,213 @@ references:
   commentId: T:August.CustomModuleCommand
   fullName: August.CustomModuleCommand
   nameWithType: CustomModuleCommand
+- uid: August.CustomModuleCommand.Exit
+  name: Exit()
+  href: api/August.CustomModuleCommand.html#August_CustomModuleCommand_Exit
+  commentId: M:August.CustomModuleCommand.Exit
+  fullName: August.CustomModuleCommand.Exit()
+  nameWithType: CustomModuleCommand.Exit()
+- uid: August.CustomModuleCommand.Exit*
+  name: Exit
+  href: api/August.CustomModuleCommand.html#August_CustomModuleCommand_Exit_
+  commentId: Overload:August.CustomModuleCommand.Exit
+  isSpec: "True"
+  fullName: August.CustomModuleCommand.Exit
+  nameWithType: CustomModuleCommand.Exit
+- uid: August.CustomModuleCommand.frameworkContext
+  name: frameworkContext
+  href: api/August.CustomModuleCommand.html#August_CustomModuleCommand_frameworkContext
+  commentId: P:August.CustomModuleCommand.frameworkContext
+  fullName: August.CustomModuleCommand.frameworkContext
+  nameWithType: CustomModuleCommand.frameworkContext
+- uid: August.CustomModuleCommand.frameworkContext*
+  name: frameworkContext
+  href: api/August.CustomModuleCommand.html#August_CustomModuleCommand_frameworkContext_
+  commentId: Overload:August.CustomModuleCommand.frameworkContext
+  isSpec: "True"
+  fullName: August.CustomModuleCommand.frameworkContext
+  nameWithType: CustomModuleCommand.frameworkContext
+- uid: August.CustomModuleCommand.Initialize
+  name: Initialize()
+  href: api/August.CustomModuleCommand.html#August_CustomModuleCommand_Initialize
+  commentId: M:August.CustomModuleCommand.Initialize
+  fullName: August.CustomModuleCommand.Initialize()
+  nameWithType: CustomModuleCommand.Initialize()
+- uid: August.CustomModuleCommand.Initialize*
+  name: Initialize
+  href: api/August.CustomModuleCommand.html#August_CustomModuleCommand_Initialize_
+  commentId: Overload:August.CustomModuleCommand.Initialize
+  isSpec: "True"
+  fullName: August.CustomModuleCommand.Initialize
+  nameWithType: CustomModuleCommand.Initialize
+- uid: August.CustomModuleCommand.ModuleLoaded
+  name: ModuleLoaded()
+  href: api/August.CustomModuleCommand.html#August_CustomModuleCommand_ModuleLoaded
+  commentId: M:August.CustomModuleCommand.ModuleLoaded
+  fullName: August.CustomModuleCommand.ModuleLoaded()
+  nameWithType: CustomModuleCommand.ModuleLoaded()
+- uid: August.CustomModuleCommand.ModuleLoaded*
+  name: ModuleLoaded
+  href: api/August.CustomModuleCommand.html#August_CustomModuleCommand_ModuleLoaded_
+  commentId: Overload:August.CustomModuleCommand.ModuleLoaded
+  isSpec: "True"
+  fullName: August.CustomModuleCommand.ModuleLoaded
+  nameWithType: CustomModuleCommand.ModuleLoaded
+- uid: August.CustomModuleCommand.ModuleUnloading
+  name: ModuleUnloading()
+  href: api/August.CustomModuleCommand.html#August_CustomModuleCommand_ModuleUnloading
+  commentId: M:August.CustomModuleCommand.ModuleUnloading
+  fullName: August.CustomModuleCommand.ModuleUnloading()
+  nameWithType: CustomModuleCommand.ModuleUnloading()
+- uid: August.CustomModuleCommand.ModuleUnloading*
+  name: ModuleUnloading
+  href: api/August.CustomModuleCommand.html#August_CustomModuleCommand_ModuleUnloading_
+  commentId: Overload:August.CustomModuleCommand.ModuleUnloading
+  isSpec: "True"
+  fullName: August.CustomModuleCommand.ModuleUnloading
+  nameWithType: CustomModuleCommand.ModuleUnloading
+- uid: August.CustomModuleCommand.Start
+  name: Start()
+  href: api/August.CustomModuleCommand.html#August_CustomModuleCommand_Start
+  commentId: M:August.CustomModuleCommand.Start
+  fullName: August.CustomModuleCommand.Start()
+  nameWithType: CustomModuleCommand.Start()
+- uid: August.CustomModuleCommand.Start*
+  name: Start
+  href: api/August.CustomModuleCommand.html#August_CustomModuleCommand_Start_
+  commentId: Overload:August.CustomModuleCommand.Start
+  isSpec: "True"
+  fullName: August.CustomModuleCommand.Start
+  nameWithType: CustomModuleCommand.Start
+- uid: August.CustomModuleCommand.Update
+  name: Update()
+  href: api/August.CustomModuleCommand.html#August_CustomModuleCommand_Update
+  commentId: M:August.CustomModuleCommand.Update
+  fullName: August.CustomModuleCommand.Update()
+  nameWithType: CustomModuleCommand.Update()
+- uid: August.CustomModuleCommand.Update*
+  name: Update
+  href: api/August.CustomModuleCommand.html#August_CustomModuleCommand_Update_
+  commentId: Overload:August.CustomModuleCommand.Update
+  isSpec: "True"
+  fullName: August.CustomModuleCommand.Update
+  nameWithType: CustomModuleCommand.Update
 - uid: August.CustomModuleComponent
   name: CustomModuleComponent
   href: api/August.CustomModuleComponent.html
   commentId: T:August.CustomModuleComponent
   fullName: August.CustomModuleComponent
   nameWithType: CustomModuleComponent
+- uid: August.CustomModuleComponent.Exit
+  name: Exit()
+  href: api/August.CustomModuleComponent.html#August_CustomModuleComponent_Exit
+  commentId: M:August.CustomModuleComponent.Exit
+  fullName: August.CustomModuleComponent.Exit()
+  nameWithType: CustomModuleComponent.Exit()
+- uid: August.CustomModuleComponent.Exit*
+  name: Exit
+  href: api/August.CustomModuleComponent.html#August_CustomModuleComponent_Exit_
+  commentId: Overload:August.CustomModuleComponent.Exit
+  isSpec: "True"
+  fullName: August.CustomModuleComponent.Exit
+  nameWithType: CustomModuleComponent.Exit
+- uid: August.CustomModuleComponent.frameworkContext
+  name: frameworkContext
+  href: api/August.CustomModuleComponent.html#August_CustomModuleComponent_frameworkContext
+  commentId: P:August.CustomModuleComponent.frameworkContext
+  fullName: August.CustomModuleComponent.frameworkContext
+  nameWithType: CustomModuleComponent.frameworkContext
+- uid: August.CustomModuleComponent.frameworkContext*
+  name: frameworkContext
+  href: api/August.CustomModuleComponent.html#August_CustomModuleComponent_frameworkContext_
+  commentId: Overload:August.CustomModuleComponent.frameworkContext
+  isSpec: "True"
+  fullName: August.CustomModuleComponent.frameworkContext
+  nameWithType: CustomModuleComponent.frameworkContext
+- uid: August.CustomModuleComponent.Initialize
+  name: Initialize()
+  href: api/August.CustomModuleComponent.html#August_CustomModuleComponent_Initialize
+  commentId: M:August.CustomModuleComponent.Initialize
+  fullName: August.CustomModuleComponent.Initialize()
+  nameWithType: CustomModuleComponent.Initialize()
+- uid: August.CustomModuleComponent.Initialize*
+  name: Initialize
+  href: api/August.CustomModuleComponent.html#August_CustomModuleComponent_Initialize_
+  commentId: Overload:August.CustomModuleComponent.Initialize
+  isSpec: "True"
+  fullName: August.CustomModuleComponent.Initialize
+  nameWithType: CustomModuleComponent.Initialize
+- uid: August.CustomModuleComponent.ModuleLoaded
+  name: ModuleLoaded()
+  href: api/August.CustomModuleComponent.html#August_CustomModuleComponent_ModuleLoaded
+  commentId: M:August.CustomModuleComponent.ModuleLoaded
+  fullName: August.CustomModuleComponent.ModuleLoaded()
+  nameWithType: CustomModuleComponent.ModuleLoaded()
+- uid: August.CustomModuleComponent.ModuleLoaded*
+  name: ModuleLoaded
+  href: api/August.CustomModuleComponent.html#August_CustomModuleComponent_ModuleLoaded_
+  commentId: Overload:August.CustomModuleComponent.ModuleLoaded
+  isSpec: "True"
+  fullName: August.CustomModuleComponent.ModuleLoaded
+  nameWithType: CustomModuleComponent.ModuleLoaded
+- uid: August.CustomModuleComponent.ModuleUnloading
+  name: ModuleUnloading()
+  href: api/August.CustomModuleComponent.html#August_CustomModuleComponent_ModuleUnloading
+  commentId: M:August.CustomModuleComponent.ModuleUnloading
+  fullName: August.CustomModuleComponent.ModuleUnloading()
+  nameWithType: CustomModuleComponent.ModuleUnloading()
+- uid: August.CustomModuleComponent.ModuleUnloading*
+  name: ModuleUnloading
+  href: api/August.CustomModuleComponent.html#August_CustomModuleComponent_ModuleUnloading_
+  commentId: Overload:August.CustomModuleComponent.ModuleUnloading
+  isSpec: "True"
+  fullName: August.CustomModuleComponent.ModuleUnloading
+  nameWithType: CustomModuleComponent.ModuleUnloading
+- uid: August.CustomModuleComponent.Start
+  name: Start()
+  href: api/August.CustomModuleComponent.html#August_CustomModuleComponent_Start
+  commentId: M:August.CustomModuleComponent.Start
+  fullName: August.CustomModuleComponent.Start()
+  nameWithType: CustomModuleComponent.Start()
+- uid: August.CustomModuleComponent.Start*
+  name: Start
+  href: api/August.CustomModuleComponent.html#August_CustomModuleComponent_Start_
+  commentId: Overload:August.CustomModuleComponent.Start
+  isSpec: "True"
+  fullName: August.CustomModuleComponent.Start
+  nameWithType: CustomModuleComponent.Start
+- uid: August.CustomModuleComponent.Update
+  name: Update()
+  href: api/August.CustomModuleComponent.html#August_CustomModuleComponent_Update
+  commentId: M:August.CustomModuleComponent.Update
+  fullName: August.CustomModuleComponent.Update()
+  nameWithType: CustomModuleComponent.Update()
+- uid: August.CustomModuleComponent.Update*
+  name: Update
+  href: api/August.CustomModuleComponent.html#August_CustomModuleComponent_Update_
+  commentId: Overload:August.CustomModuleComponent.Update
+  isSpec: "True"
+  fullName: August.CustomModuleComponent.Update
+  nameWithType: CustomModuleComponent.Update
 - uid: August.CustomModuleInteraction
   name: CustomModuleInteraction
   href: api/August.CustomModuleInteraction.html
   commentId: T:August.CustomModuleInteraction
   fullName: August.CustomModuleInteraction
   nameWithType: CustomModuleInteraction
+- uid: August.CustomModuleInteraction.frameworkContext
+  name: frameworkContext
+  href: api/August.CustomModuleInteraction.html#August_CustomModuleInteraction_frameworkContext
+  commentId: P:August.CustomModuleInteraction.frameworkContext
+  fullName: August.CustomModuleInteraction.frameworkContext
+  nameWithType: CustomModuleInteraction.frameworkContext
+- uid: August.CustomModuleInteraction.frameworkContext*
+  name: frameworkContext
+  href: api/August.CustomModuleInteraction.html#August_CustomModuleInteraction_frameworkContext_
+  commentId: Overload:August.CustomModuleInteraction.frameworkContext
+  isSpec: "True"
+  fullName: August.CustomModuleInteraction.frameworkContext
+  nameWithType: CustomModuleInteraction.frameworkContext
 - uid: August.Debug
   name: Debug
   href: api/August.Debug.html
@@ -276,19 +590,25 @@ references:
   isSpec: "True"
   fullName: August.Debug.AddILog
   nameWithType: Debug.AddILog
-- uid: August.Debug.BotLog(System.String,System.String,System.Object,System.ConsoleColor)
-  name: BotLog(String, String, Object, ConsoleColor)
-  href: api/August.Debug.html#August_Debug_BotLog_System_String_System_String_System_Object_System_ConsoleColor_
-  commentId: M:August.Debug.BotLog(System.String,System.String,System.Object,System.ConsoleColor)
-  fullName: August.Debug.BotLog(System.String, System.String, System.Object, System.ConsoleColor)
-  nameWithType: Debug.BotLog(String, String, Object, ConsoleColor)
-- uid: August.Debug.BotLog*
-  name: BotLog
-  href: api/August.Debug.html#August_Debug_BotLog_
-  commentId: Overload:August.Debug.BotLog
+- uid: August.Debug.ErrorLog(System.String,System.Object)
+  name: ErrorLog(String, Object)
+  href: api/August.Debug.html#August_Debug_ErrorLog_System_String_System_Object_
+  commentId: M:August.Debug.ErrorLog(System.String,System.Object)
+  fullName: August.Debug.ErrorLog(System.String, System.Object)
+  nameWithType: Debug.ErrorLog(String, Object)
+- uid: August.Debug.ErrorLog*
+  name: ErrorLog
+  href: api/August.Debug.html#August_Debug_ErrorLog_
+  commentId: Overload:August.Debug.ErrorLog
   isSpec: "True"
-  fullName: August.Debug.BotLog
-  nameWithType: Debug.BotLog
+  fullName: August.Debug.ErrorLog
+  nameWithType: Debug.ErrorLog
+- uid: August.Debug.Log(System.String,System.Object)
+  name: Log(String, Object)
+  href: api/August.Debug.html#August_Debug_Log_System_String_System_Object_
+  commentId: M:August.Debug.Log(System.String,System.Object)
+  fullName: August.Debug.Log(System.String, System.Object)
+  nameWithType: Debug.Log(String, Object)
 - uid: August.Debug.Log(System.String,System.Object,System.ConsoleColor)
   name: Log(String, Object, ConsoleColor)
   href: api/August.Debug.html#August_Debug_Log_System_String_System_Object_System_ConsoleColor_
@@ -302,6 +622,32 @@ references:
   isSpec: "True"
   fullName: August.Debug.Log
   nameWithType: Debug.Log
+- uid: August.Debug.RemoveILog(August.IDebug)
+  name: RemoveILog(IDebug)
+  href: api/August.Debug.html#August_Debug_RemoveILog_August_IDebug_
+  commentId: M:August.Debug.RemoveILog(August.IDebug)
+  fullName: August.Debug.RemoveILog(August.IDebug)
+  nameWithType: Debug.RemoveILog(IDebug)
+- uid: August.Debug.RemoveILog*
+  name: RemoveILog
+  href: api/August.Debug.html#August_Debug_RemoveILog_
+  commentId: Overload:August.Debug.RemoveILog
+  isSpec: "True"
+  fullName: August.Debug.RemoveILog
+  nameWithType: Debug.RemoveILog
+- uid: August.Debug.WarningLog(System.String,System.Object)
+  name: WarningLog(String, Object)
+  href: api/August.Debug.html#August_Debug_WarningLog_System_String_System_Object_
+  commentId: M:August.Debug.WarningLog(System.String,System.Object)
+  fullName: August.Debug.WarningLog(System.String, System.Object)
+  nameWithType: Debug.WarningLog(String, Object)
+- uid: August.Debug.WarningLog*
+  name: WarningLog
+  href: api/August.Debug.html#August_Debug_WarningLog_
+  commentId: Overload:August.Debug.WarningLog
+  isSpec: "True"
+  fullName: August.Debug.WarningLog
+  nameWithType: Debug.WarningLog
 - uid: August.FileController`1
   name: FileController<T>
   href: api/August.FileController-1.html
@@ -421,6 +767,14 @@ references:
   fullName.vb: August.FileController(Of T).SaveData(T)
   nameWithType: FileController<T>.SaveData(T)
   nameWithType.vb: FileController(Of T).SaveData(T)
+- uid: August.FileController`1.SaveData(System.Object)
+  name: SaveData(Object)
+  href: api/August.FileController-1.html#August_FileController_1_SaveData_System_Object_
+  commentId: M:August.FileController`1.SaveData(System.Object)
+  fullName: August.FileController<T>.SaveData(System.Object)
+  fullName.vb: August.FileController(Of T).SaveData(System.Object)
+  nameWithType: FileController<T>.SaveData(Object)
+  nameWithType.vb: FileController(Of T).SaveData(Object)
 - uid: August.FileController`1.SaveData*
   name: SaveData
   href: api/August.FileController-1.html#August_FileController_1_SaveData_
@@ -449,6 +803,19 @@ references:
   isSpec: "True"
   fullName: August.FileControllerBase.DefaultData
   nameWithType: FileControllerBase.DefaultData
+- uid: August.FileControllerBase.Exit
+  name: Exit()
+  href: api/August.FileControllerBase.html#August_FileControllerBase_Exit
+  commentId: M:August.FileControllerBase.Exit
+  fullName: August.FileControllerBase.Exit()
+  nameWithType: FileControllerBase.Exit()
+- uid: August.FileControllerBase.Exit*
+  name: Exit
+  href: api/August.FileControllerBase.html#August_FileControllerBase_Exit_
+  commentId: Overload:August.FileControllerBase.Exit
+  isSpec: "True"
+  fullName: August.FileControllerBase.Exit
+  nameWithType: FileControllerBase.Exit
 - uid: August.FileControllerBase.format
   name: format
   href: api/August.FileControllerBase.html#August_FileControllerBase_format
@@ -462,6 +829,84 @@ references:
   isSpec: "True"
   fullName: August.FileControllerBase.format
   nameWithType: FileControllerBase.format
+- uid: August.FileControllerBase.frameworkContext
+  name: frameworkContext
+  href: api/August.FileControllerBase.html#August_FileControllerBase_frameworkContext
+  commentId: P:August.FileControllerBase.frameworkContext
+  fullName: August.FileControllerBase.frameworkContext
+  nameWithType: FileControllerBase.frameworkContext
+- uid: August.FileControllerBase.frameworkContext*
+  name: frameworkContext
+  href: api/August.FileControllerBase.html#August_FileControllerBase_frameworkContext_
+  commentId: Overload:August.FileControllerBase.frameworkContext
+  isSpec: "True"
+  fullName: August.FileControllerBase.frameworkContext
+  nameWithType: FileControllerBase.frameworkContext
+- uid: August.FileControllerBase.Initialize
+  name: Initialize()
+  href: api/August.FileControllerBase.html#August_FileControllerBase_Initialize
+  commentId: M:August.FileControllerBase.Initialize
+  fullName: August.FileControllerBase.Initialize()
+  nameWithType: FileControllerBase.Initialize()
+- uid: August.FileControllerBase.Initialize*
+  name: Initialize
+  href: api/August.FileControllerBase.html#August_FileControllerBase_Initialize_
+  commentId: Overload:August.FileControllerBase.Initialize
+  isSpec: "True"
+  fullName: August.FileControllerBase.Initialize
+  nameWithType: FileControllerBase.Initialize
+- uid: August.FileControllerBase.Load
+  name: Load()
+  href: api/August.FileControllerBase.html#August_FileControllerBase_Load
+  commentId: M:August.FileControllerBase.Load
+  fullName: August.FileControllerBase.Load()
+  nameWithType: FileControllerBase.Load()
+- uid: August.FileControllerBase.Load*
+  name: Load
+  href: api/August.FileControllerBase.html#August_FileControllerBase_Load_
+  commentId: Overload:August.FileControllerBase.Load
+  isSpec: "True"
+  fullName: August.FileControllerBase.Load
+  nameWithType: FileControllerBase.Load
+- uid: August.FileControllerBase.LoadData
+  name: LoadData()
+  href: api/August.FileControllerBase.html#August_FileControllerBase_LoadData
+  commentId: M:August.FileControllerBase.LoadData
+  fullName: August.FileControllerBase.LoadData()
+  nameWithType: FileControllerBase.LoadData()
+- uid: August.FileControllerBase.LoadData*
+  name: LoadData
+  href: api/August.FileControllerBase.html#August_FileControllerBase_LoadData_
+  commentId: Overload:August.FileControllerBase.LoadData
+  isSpec: "True"
+  fullName: August.FileControllerBase.LoadData
+  nameWithType: FileControllerBase.LoadData
+- uid: August.FileControllerBase.ModuleLoaded
+  name: ModuleLoaded()
+  href: api/August.FileControllerBase.html#August_FileControllerBase_ModuleLoaded
+  commentId: M:August.FileControllerBase.ModuleLoaded
+  fullName: August.FileControllerBase.ModuleLoaded()
+  nameWithType: FileControllerBase.ModuleLoaded()
+- uid: August.FileControllerBase.ModuleLoaded*
+  name: ModuleLoaded
+  href: api/August.FileControllerBase.html#August_FileControllerBase_ModuleLoaded_
+  commentId: Overload:August.FileControllerBase.ModuleLoaded
+  isSpec: "True"
+  fullName: August.FileControllerBase.ModuleLoaded
+  nameWithType: FileControllerBase.ModuleLoaded
+- uid: August.FileControllerBase.ModuleUnloading
+  name: ModuleUnloading()
+  href: api/August.FileControllerBase.html#August_FileControllerBase_ModuleUnloading
+  commentId: M:August.FileControllerBase.ModuleUnloading
+  fullName: August.FileControllerBase.ModuleUnloading()
+  nameWithType: FileControllerBase.ModuleUnloading()
+- uid: August.FileControllerBase.ModuleUnloading*
+  name: ModuleUnloading
+  href: api/August.FileControllerBase.html#August_FileControllerBase_ModuleUnloading_
+  commentId: Overload:August.FileControllerBase.ModuleUnloading
+  isSpec: "True"
+  fullName: August.FileControllerBase.ModuleUnloading
+  nameWithType: FileControllerBase.ModuleUnloading
 - uid: August.FileControllerBase.path
   name: path
   href: api/August.FileControllerBase.html#August_FileControllerBase_path
@@ -475,6 +920,45 @@ references:
   isSpec: "True"
   fullName: August.FileControllerBase.path
   nameWithType: FileControllerBase.path
+- uid: August.FileControllerBase.Save
+  name: Save()
+  href: api/August.FileControllerBase.html#August_FileControllerBase_Save
+  commentId: M:August.FileControllerBase.Save
+  fullName: August.FileControllerBase.Save()
+  nameWithType: FileControllerBase.Save()
+- uid: August.FileControllerBase.Save*
+  name: Save
+  href: api/August.FileControllerBase.html#August_FileControllerBase_Save_
+  commentId: Overload:August.FileControllerBase.Save
+  isSpec: "True"
+  fullName: August.FileControllerBase.Save
+  nameWithType: FileControllerBase.Save
+- uid: August.FileControllerBase.SaveData(System.Object)
+  name: SaveData(Object)
+  href: api/August.FileControllerBase.html#August_FileControllerBase_SaveData_System_Object_
+  commentId: M:August.FileControllerBase.SaveData(System.Object)
+  fullName: August.FileControllerBase.SaveData(System.Object)
+  nameWithType: FileControllerBase.SaveData(Object)
+- uid: August.FileControllerBase.SaveData*
+  name: SaveData
+  href: api/August.FileControllerBase.html#August_FileControllerBase_SaveData_
+  commentId: Overload:August.FileControllerBase.SaveData
+  isSpec: "True"
+  fullName: August.FileControllerBase.SaveData
+  nameWithType: FileControllerBase.SaveData
+- uid: August.FileControllerBase.Start
+  name: Start()
+  href: api/August.FileControllerBase.html#August_FileControllerBase_Start
+  commentId: M:August.FileControllerBase.Start
+  fullName: August.FileControllerBase.Start()
+  nameWithType: FileControllerBase.Start()
+- uid: August.FileControllerBase.Start*
+  name: Start
+  href: api/August.FileControllerBase.html#August_FileControllerBase_Start_
+  commentId: Overload:August.FileControllerBase.Start
+  isSpec: "True"
+  fullName: August.FileControllerBase.Start
+  nameWithType: FileControllerBase.Start
 - uid: August.FileControllerBase.type
   name: type
   href: api/August.FileControllerBase.html#August_FileControllerBase_type
@@ -488,6 +972,19 @@ references:
   isSpec: "True"
   fullName: August.FileControllerBase.type
   nameWithType: FileControllerBase.type
+- uid: August.FileControllerBase.Update
+  name: Update()
+  href: api/August.FileControllerBase.html#August_FileControllerBase_Update
+  commentId: M:August.FileControllerBase.Update
+  fullName: August.FileControllerBase.Update()
+  nameWithType: FileControllerBase.Update()
+- uid: August.FileControllerBase.Update*
+  name: Update
+  href: api/August.FileControllerBase.html#August_FileControllerBase_Update_
+  commentId: Overload:August.FileControllerBase.Update
+  isSpec: "True"
+  fullName: August.FileControllerBase.Update
+  nameWithType: FileControllerBase.Update
 - uid: August.FileControllerBase.vaild
   name: vaild
   href: api/August.FileControllerBase.html#August_FileControllerBase_vaild
@@ -611,15 +1108,15 @@ references:
   commentId: T:August.FrameworkContext
   fullName: August.FrameworkContext
   nameWithType: FrameworkContext
-- uid: August.FrameworkContext.#ctor(System.Func{System.String,System.String,August.AugustAction},System.Func{System.String,System.String,System.Type,August.AugustFunc})
-  name: FrameworkContext(Func<String, String, AugustAction>, Func<String, String, Type, AugustFunc>)
-  href: api/August.FrameworkContext.html#August_FrameworkContext__ctor_System_Func_System_String_System_String_August_AugustAction__System_Func_System_String_System_String_System_Type_August_AugustFunc__
-  commentId: M:August.FrameworkContext.#ctor(System.Func{System.String,System.String,August.AugustAction},System.Func{System.String,System.String,System.Type,August.AugustFunc})
-  name.vb: FrameworkContext(Func(Of String, String, AugustAction), Func(Of String, String, Type, AugustFunc))
-  fullName: August.FrameworkContext.FrameworkContext(System.Func<System.String, System.String, August.AugustAction>, System.Func<System.String, System.String, System.Type, August.AugustFunc>)
-  fullName.vb: August.FrameworkContext.FrameworkContext(System.Func(Of System.String, System.String, August.AugustAction), System.Func(Of System.String, System.String, System.Type, August.AugustFunc))
-  nameWithType: FrameworkContext.FrameworkContext(Func<String, String, AugustAction>, Func<String, String, Type, AugustFunc>)
-  nameWithType.vb: FrameworkContext.FrameworkContext(Func(Of String, String, AugustAction), Func(Of String, String, Type, AugustFunc))
+- uid: August.FrameworkContext.#ctor(System.Func{System.Type,System.Object},System.Func{System.String,System.String,August.AugustAction},System.Func{System.String,System.String,System.Type,August.AugustFunc})
+  name: FrameworkContext(Func<Type, Object>, Func<String, String, AugustAction>, Func<String, String, Type, AugustFunc>)
+  href: api/August.FrameworkContext.html#August_FrameworkContext__ctor_System_Func_System_Type_System_Object__System_Func_System_String_System_String_August_AugustAction__System_Func_System_String_System_String_System_Type_August_AugustFunc__
+  commentId: M:August.FrameworkContext.#ctor(System.Func{System.Type,System.Object},System.Func{System.String,System.String,August.AugustAction},System.Func{System.String,System.String,System.Type,August.AugustFunc})
+  name.vb: FrameworkContext(Func(Of Type, Object), Func(Of String, String, AugustAction), Func(Of String, String, Type, AugustFunc))
+  fullName: August.FrameworkContext.FrameworkContext(System.Func<System.Type, System.Object>, System.Func<System.String, System.String, August.AugustAction>, System.Func<System.String, System.String, System.Type, August.AugustFunc>)
+  fullName.vb: August.FrameworkContext.FrameworkContext(System.Func(Of System.Type, System.Object), System.Func(Of System.String, System.String, August.AugustAction), System.Func(Of System.String, System.String, System.Type, August.AugustFunc))
+  nameWithType: FrameworkContext.FrameworkContext(Func<Type, Object>, Func<String, String, AugustAction>, Func<String, String, Type, AugustFunc>)
+  nameWithType.vb: FrameworkContext.FrameworkContext(Func(Of Type, Object), Func(Of String, String, AugustAction), Func(Of String, String, Type, AugustFunc))
 - uid: August.FrameworkContext.#ctor*
   name: FrameworkContext
   href: api/August.FrameworkContext.html#August_FrameworkContext__ctor_
@@ -633,6 +1130,12 @@ references:
   commentId: M:August.FrameworkContext.GetCommandAction(System.String,System.String)
   fullName: August.FrameworkContext.GetCommandAction(System.String, System.String)
   nameWithType: FrameworkContext.GetCommandAction(String, String)
+- uid: August.FrameworkContext.GetCommandAction(System.String,System.String,System.String)
+  name: GetCommandAction(String, String, String)
+  href: api/August.FrameworkContext.html#August_FrameworkContext_GetCommandAction_System_String_System_String_System_String_
+  commentId: M:August.FrameworkContext.GetCommandAction(System.String,System.String,System.String)
+  fullName: August.FrameworkContext.GetCommandAction(System.String, System.String, System.String)
+  nameWithType: FrameworkContext.GetCommandAction(String, String, String)
 - uid: August.FrameworkContext.GetCommandAction*
   name: GetCommandAction
   href: api/August.FrameworkContext.html#August_FrameworkContext_GetCommandAction_
@@ -656,6 +1159,37 @@ references:
   fullName.vb: August.FrameworkContext.GetCommandFunc(Of T)(System.String, System.String)
   nameWithType: FrameworkContext.GetCommandFunc<T>(String, String)
   nameWithType.vb: FrameworkContext.GetCommandFunc(Of T)(String, String)
+- uid: August.FrameworkContext.GetCommandFunc``1(System.String,System.String,System.String)
+  name: GetCommandFunc<T>(String, String, String)
+  href: api/August.FrameworkContext.html#August_FrameworkContext_GetCommandFunc__1_System_String_System_String_System_String_
+  commentId: M:August.FrameworkContext.GetCommandFunc``1(System.String,System.String,System.String)
+  name.vb: GetCommandFunc(Of T)(String, String, String)
+  fullName: August.FrameworkContext.GetCommandFunc<T>(System.String, System.String, System.String)
+  fullName.vb: August.FrameworkContext.GetCommandFunc(Of T)(System.String, System.String, System.String)
+  nameWithType: FrameworkContext.GetCommandFunc<T>(String, String, String)
+  nameWithType.vb: FrameworkContext.GetCommandFunc(Of T)(String, String, String)
+- uid: August.FrameworkContext.GetInstanceClass(System.Type)
+  name: GetInstanceClass(Type)
+  href: api/August.FrameworkContext.html#August_FrameworkContext_GetInstanceClass_System_Type_
+  commentId: M:August.FrameworkContext.GetInstanceClass(System.Type)
+  fullName: August.FrameworkContext.GetInstanceClass(System.Type)
+  nameWithType: FrameworkContext.GetInstanceClass(Type)
+- uid: August.FrameworkContext.GetInstanceClass*
+  name: GetInstanceClass
+  href: api/August.FrameworkContext.html#August_FrameworkContext_GetInstanceClass_
+  commentId: Overload:August.FrameworkContext.GetInstanceClass
+  isSpec: "True"
+  fullName: August.FrameworkContext.GetInstanceClass
+  nameWithType: FrameworkContext.GetInstanceClass
+- uid: August.FrameworkContext.GetInstanceClass``1
+  name: GetInstanceClass<T>()
+  href: api/August.FrameworkContext.html#August_FrameworkContext_GetInstanceClass__1
+  commentId: M:August.FrameworkContext.GetInstanceClass``1
+  name.vb: GetInstanceClass(Of T)()
+  fullName: August.FrameworkContext.GetInstanceClass<T>()
+  fullName.vb: August.FrameworkContext.GetInstanceClass(Of T)()
+  nameWithType: FrameworkContext.GetInstanceClass<T>()
+  nameWithType.vb: FrameworkContext.GetInstanceClass(Of T)()
 - uid: August.FrameworkContext.InvokeCommandAction(System.String,System.String,System.Object[])
   name: InvokeCommandAction(String, String, Object[])
   href: api/August.FrameworkContext.html#August_FrameworkContext_InvokeCommandAction_System_String_System_String_System_Object___
@@ -829,6 +1363,144 @@ references:
   isSpec: "True"
   fullName: August.FrameworkGroupAttribute.name
   nameWithType: FrameworkGroupAttribute.name
+- uid: August.GlobalPath
+  name: GlobalPath
+  href: api/August.GlobalPath.html
+  commentId: T:August.GlobalPath
+  fullName: August.GlobalPath
+  nameWithType: GlobalPath
+- uid: August.GlobalPath.BotsConfigFolder
+  name: BotsConfigFolder
+  href: api/August.GlobalPath.html#August_GlobalPath_BotsConfigFolder
+  commentId: F:August.GlobalPath.BotsConfigFolder
+  fullName: August.GlobalPath.BotsConfigFolder
+  nameWithType: GlobalPath.BotsConfigFolder
+- uid: August.GlobalPath.BotsDataFolder
+  name: BotsDataFolder
+  href: api/August.GlobalPath.html#August_GlobalPath_BotsDataFolder
+  commentId: F:August.GlobalPath.BotsDataFolder
+  fullName: August.GlobalPath.BotsDataFolder
+  nameWithType: GlobalPath.BotsDataFolder
+- uid: August.GlobalPath.BotsExecuteFile
+  name: BotsExecuteFile
+  href: api/August.GlobalPath.html#August_GlobalPath_BotsExecuteFile
+  commentId: F:August.GlobalPath.BotsExecuteFile
+  fullName: August.GlobalPath.BotsExecuteFile
+  nameWithType: GlobalPath.BotsExecuteFile
+- uid: August.GlobalPath.BotsIntentFile
+  name: BotsIntentFile
+  href: api/August.GlobalPath.html#August_GlobalPath_BotsIntentFile
+  commentId: F:August.GlobalPath.BotsIntentFile
+  fullName: August.GlobalPath.BotsIntentFile
+  nameWithType: GlobalPath.BotsIntentFile
+- uid: August.GlobalPath.BotsModFolder
+  name: BotsModFolder
+  href: api/August.GlobalPath.html#August_GlobalPath_BotsModFolder
+  commentId: F:August.GlobalPath.BotsModFolder
+  fullName: August.GlobalPath.BotsModFolder
+  nameWithType: GlobalPath.BotsModFolder
+- uid: August.GlobalPath.BotsRootFolder
+  name: BotsRootFolder
+  href: api/August.GlobalPath.html#August_GlobalPath_BotsRootFolder
+  commentId: F:August.GlobalPath.BotsRootFolder
+  fullName: August.GlobalPath.BotsRootFolder
+  nameWithType: GlobalPath.BotsRootFolder
+- uid: August.GlobalPath.BotsSettingFile
+  name: BotsSettingFile
+  href: api/August.GlobalPath.html#August_GlobalPath_BotsSettingFile
+  commentId: F:August.GlobalPath.BotsSettingFile
+  fullName: August.GlobalPath.BotsSettingFile
+  nameWithType: GlobalPath.BotsSettingFile
+- uid: August.GlobalPath.FrameworkProperties
+  name: FrameworkProperties
+  href: api/August.GlobalPath.html#August_GlobalPath_FrameworkProperties
+  commentId: F:August.GlobalPath.FrameworkProperties
+  fullName: August.GlobalPath.FrameworkProperties
+  nameWithType: GlobalPath.FrameworkProperties
+- uid: August.IController
+  name: IController
+  href: api/August.IController.html
+  commentId: T:August.IController
+  fullName: August.IController
+  nameWithType: IController
+- uid: August.IController.Load
+  name: Load()
+  href: api/August.IController.html#August_IController_Load
+  commentId: M:August.IController.Load
+  fullName: August.IController.Load()
+  nameWithType: IController.Load()
+- uid: August.IController.Load*
+  name: Load
+  href: api/August.IController.html#August_IController_Load_
+  commentId: Overload:August.IController.Load
+  isSpec: "True"
+  fullName: August.IController.Load
+  nameWithType: IController.Load
+- uid: August.IController.LoadData
+  name: LoadData()
+  href: api/August.IController.html#August_IController_LoadData
+  commentId: M:August.IController.LoadData
+  fullName: August.IController.LoadData()
+  nameWithType: IController.LoadData()
+- uid: August.IController.LoadData*
+  name: LoadData
+  href: api/August.IController.html#August_IController_LoadData_
+  commentId: Overload:August.IController.LoadData
+  isSpec: "True"
+  fullName: August.IController.LoadData
+  nameWithType: IController.LoadData
+- uid: August.IController.path
+  name: path
+  href: api/August.IController.html#August_IController_path
+  commentId: P:August.IController.path
+  fullName: August.IController.path
+  nameWithType: IController.path
+- uid: August.IController.path*
+  name: path
+  href: api/August.IController.html#August_IController_path_
+  commentId: Overload:August.IController.path
+  isSpec: "True"
+  fullName: August.IController.path
+  nameWithType: IController.path
+- uid: August.IController.Save
+  name: Save()
+  href: api/August.IController.html#August_IController_Save
+  commentId: M:August.IController.Save
+  fullName: August.IController.Save()
+  nameWithType: IController.Save()
+- uid: August.IController.Save*
+  name: Save
+  href: api/August.IController.html#August_IController_Save_
+  commentId: Overload:August.IController.Save
+  isSpec: "True"
+  fullName: August.IController.Save
+  nameWithType: IController.Save
+- uid: August.IController.SaveData(System.Object)
+  name: SaveData(Object)
+  href: api/August.IController.html#August_IController_SaveData_System_Object_
+  commentId: M:August.IController.SaveData(System.Object)
+  fullName: August.IController.SaveData(System.Object)
+  nameWithType: IController.SaveData(Object)
+- uid: August.IController.SaveData*
+  name: SaveData
+  href: api/August.IController.html#August_IController_SaveData_
+  commentId: Overload:August.IController.SaveData
+  isSpec: "True"
+  fullName: August.IController.SaveData
+  nameWithType: IController.SaveData
+- uid: August.IController.vaild
+  name: vaild
+  href: api/August.IController.html#August_IController_vaild
+  commentId: P:August.IController.vaild
+  fullName: August.IController.vaild
+  nameWithType: IController.vaild
+- uid: August.IController.vaild*
+  name: vaild
+  href: api/August.IController.html#August_IController_vaild_
+  commentId: Overload:August.IController.vaild
+  isSpec: "True"
+  fullName: August.IController.vaild
+  nameWithType: IController.vaild
 - uid: August.ICustomModule
   name: ICustomModule
   href: api/August.ICustomModule.html
@@ -848,70 +1520,141 @@ references:
   isSpec: "True"
   fullName: August.ICustomModule.Info
   nameWithType: ICustomModule.Info
-- uid: August.ICustomModule.Initialize
+- uid: August.ICustomModuleEvent
+  name: ICustomModuleEvent
+  href: api/August.ICustomModuleEvent.html
+  commentId: T:August.ICustomModuleEvent
+  fullName: August.ICustomModuleEvent
+  nameWithType: ICustomModuleEvent
+- uid: August.ICustomModuleEvent.Exit
+  name: Exit()
+  href: api/August.ICustomModuleEvent.html#August_ICustomModuleEvent_Exit
+  commentId: M:August.ICustomModuleEvent.Exit
+  fullName: August.ICustomModuleEvent.Exit()
+  nameWithType: ICustomModuleEvent.Exit()
+- uid: August.ICustomModuleEvent.Exit*
+  name: Exit
+  href: api/August.ICustomModuleEvent.html#August_ICustomModuleEvent_Exit_
+  commentId: Overload:August.ICustomModuleEvent.Exit
+  isSpec: "True"
+  fullName: August.ICustomModuleEvent.Exit
+  nameWithType: ICustomModuleEvent.Exit
+- uid: August.ICustomModuleEvent.Initialize
   name: Initialize()
-  href: api/August.ICustomModule.html#August_ICustomModule_Initialize
-  commentId: M:August.ICustomModule.Initialize
-  fullName: August.ICustomModule.Initialize()
-  nameWithType: ICustomModule.Initialize()
-- uid: August.ICustomModule.Initialize*
+  href: api/August.ICustomModuleEvent.html#August_ICustomModuleEvent_Initialize
+  commentId: M:August.ICustomModuleEvent.Initialize
+  fullName: August.ICustomModuleEvent.Initialize()
+  nameWithType: ICustomModuleEvent.Initialize()
+- uid: August.ICustomModuleEvent.Initialize*
   name: Initialize
-  href: api/August.ICustomModule.html#August_ICustomModule_Initialize_
-  commentId: Overload:August.ICustomModule.Initialize
+  href: api/August.ICustomModuleEvent.html#August_ICustomModuleEvent_Initialize_
+  commentId: Overload:August.ICustomModuleEvent.Initialize
   isSpec: "True"
-  fullName: August.ICustomModule.Initialize
-  nameWithType: ICustomModule.Initialize
-- uid: August.ICustomModule.Start
+  fullName: August.ICustomModuleEvent.Initialize
+  nameWithType: ICustomModuleEvent.Initialize
+- uid: August.ICustomModuleEvent.ModuleLoaded
+  name: ModuleLoaded()
+  href: api/August.ICustomModuleEvent.html#August_ICustomModuleEvent_ModuleLoaded
+  commentId: M:August.ICustomModuleEvent.ModuleLoaded
+  fullName: August.ICustomModuleEvent.ModuleLoaded()
+  nameWithType: ICustomModuleEvent.ModuleLoaded()
+- uid: August.ICustomModuleEvent.ModuleLoaded*
+  name: ModuleLoaded
+  href: api/August.ICustomModuleEvent.html#August_ICustomModuleEvent_ModuleLoaded_
+  commentId: Overload:August.ICustomModuleEvent.ModuleLoaded
+  isSpec: "True"
+  fullName: August.ICustomModuleEvent.ModuleLoaded
+  nameWithType: ICustomModuleEvent.ModuleLoaded
+- uid: August.ICustomModuleEvent.ModuleUnloading
+  name: ModuleUnloading()
+  href: api/August.ICustomModuleEvent.html#August_ICustomModuleEvent_ModuleUnloading
+  commentId: M:August.ICustomModuleEvent.ModuleUnloading
+  fullName: August.ICustomModuleEvent.ModuleUnloading()
+  nameWithType: ICustomModuleEvent.ModuleUnloading()
+- uid: August.ICustomModuleEvent.ModuleUnloading*
+  name: ModuleUnloading
+  href: api/August.ICustomModuleEvent.html#August_ICustomModuleEvent_ModuleUnloading_
+  commentId: Overload:August.ICustomModuleEvent.ModuleUnloading
+  isSpec: "True"
+  fullName: August.ICustomModuleEvent.ModuleUnloading
+  nameWithType: ICustomModuleEvent.ModuleUnloading
+- uid: August.ICustomModuleEvent.Start
   name: Start()
-  href: api/August.ICustomModule.html#August_ICustomModule_Start
-  commentId: M:August.ICustomModule.Start
-  fullName: August.ICustomModule.Start()
-  nameWithType: ICustomModule.Start()
-- uid: August.ICustomModule.Start*
+  href: api/August.ICustomModuleEvent.html#August_ICustomModuleEvent_Start
+  commentId: M:August.ICustomModuleEvent.Start
+  fullName: August.ICustomModuleEvent.Start()
+  nameWithType: ICustomModuleEvent.Start()
+- uid: August.ICustomModuleEvent.Start*
   name: Start
-  href: api/August.ICustomModule.html#August_ICustomModule_Start_
-  commentId: Overload:August.ICustomModule.Start
+  href: api/August.ICustomModuleEvent.html#August_ICustomModuleEvent_Start_
+  commentId: Overload:August.ICustomModuleEvent.Start
   isSpec: "True"
-  fullName: August.ICustomModule.Start
-  nameWithType: ICustomModule.Start
-- uid: August.ICustomModule.Update
+  fullName: August.ICustomModuleEvent.Start
+  nameWithType: ICustomModuleEvent.Start
+- uid: August.ICustomModuleEvent.Update
   name: Update()
-  href: api/August.ICustomModule.html#August_ICustomModule_Update
-  commentId: M:August.ICustomModule.Update
-  fullName: August.ICustomModule.Update()
-  nameWithType: ICustomModule.Update()
-- uid: August.ICustomModule.Update*
+  href: api/August.ICustomModuleEvent.html#August_ICustomModuleEvent_Update
+  commentId: M:August.ICustomModuleEvent.Update
+  fullName: August.ICustomModuleEvent.Update()
+  nameWithType: ICustomModuleEvent.Update()
+- uid: August.ICustomModuleEvent.Update*
   name: Update
-  href: api/August.ICustomModule.html#August_ICustomModule_Update_
-  commentId: Overload:August.ICustomModule.Update
+  href: api/August.ICustomModuleEvent.html#August_ICustomModuleEvent_Update_
+  commentId: Overload:August.ICustomModuleEvent.Update
   isSpec: "True"
-  fullName: August.ICustomModule.Update
-  nameWithType: ICustomModule.Update
-- uid: August.ICustomModuleComponent
-  name: ICustomModuleComponent
-  href: api/August.ICustomModuleComponent.html
-  commentId: T:August.ICustomModuleComponent
-  fullName: August.ICustomModuleComponent
-  nameWithType: ICustomModuleComponent
+  fullName: August.ICustomModuleEvent.Update
+  nameWithType: ICustomModuleEvent.Update
 - uid: August.IDebug
   name: IDebug
   href: api/August.IDebug.html
   commentId: T:August.IDebug
   fullName: August.IDebug
   nameWithType: IDebug
-- uid: August.IDebug.BotLog(System.String,System.String,System.Object,System.ConsoleColor)
-  name: BotLog(String, String, Object, ConsoleColor)
-  href: api/August.IDebug.html#August_IDebug_BotLog_System_String_System_String_System_Object_System_ConsoleColor_
-  commentId: M:August.IDebug.BotLog(System.String,System.String,System.Object,System.ConsoleColor)
-  fullName: August.IDebug.BotLog(System.String, System.String, System.Object, System.ConsoleColor)
-  nameWithType: IDebug.BotLog(String, String, Object, ConsoleColor)
-- uid: August.IDebug.BotLog*
-  name: BotLog
-  href: api/August.IDebug.html#August_IDebug_BotLog_
-  commentId: Overload:August.IDebug.BotLog
+- uid: August.IDebug.block
+  name: block
+  href: api/August.IDebug.html#August_IDebug_block
+  commentId: P:August.IDebug.block
+  fullName: August.IDebug.block
+  nameWithType: IDebug.block
+- uid: August.IDebug.block*
+  name: block
+  href: api/August.IDebug.html#August_IDebug_block_
+  commentId: Overload:August.IDebug.block
   isSpec: "True"
-  fullName: August.IDebug.BotLog
-  nameWithType: IDebug.BotLog
+  fullName: August.IDebug.block
+  nameWithType: IDebug.block
+- uid: August.IDebug.errorColor
+  name: errorColor
+  href: api/August.IDebug.html#August_IDebug_errorColor
+  commentId: P:August.IDebug.errorColor
+  fullName: August.IDebug.errorColor
+  nameWithType: IDebug.errorColor
+- uid: August.IDebug.errorColor*
+  name: errorColor
+  href: api/August.IDebug.html#August_IDebug_errorColor_
+  commentId: Overload:August.IDebug.errorColor
+  isSpec: "True"
+  fullName: August.IDebug.errorColor
+  nameWithType: IDebug.errorColor
+- uid: August.IDebug.ErrorLog(System.String,System.Object)
+  name: ErrorLog(String, Object)
+  href: api/August.IDebug.html#August_IDebug_ErrorLog_System_String_System_Object_
+  commentId: M:August.IDebug.ErrorLog(System.String,System.Object)
+  fullName: August.IDebug.ErrorLog(System.String, System.Object)
+  nameWithType: IDebug.ErrorLog(String, Object)
+- uid: August.IDebug.ErrorLog*
+  name: ErrorLog
+  href: api/August.IDebug.html#August_IDebug_ErrorLog_
+  commentId: Overload:August.IDebug.ErrorLog
+  isSpec: "True"
+  fullName: August.IDebug.ErrorLog
+  nameWithType: IDebug.ErrorLog
+- uid: August.IDebug.Log(System.String,System.Object)
+  name: Log(String, Object)
+  href: api/August.IDebug.html#August_IDebug_Log_System_String_System_Object_
+  commentId: M:August.IDebug.Log(System.String,System.Object)
+  fullName: August.IDebug.Log(System.String, System.Object)
+  nameWithType: IDebug.Log(String, Object)
 - uid: August.IDebug.Log(System.String,System.Object,System.ConsoleColor)
   name: Log(String, Object, ConsoleColor)
   href: api/August.IDebug.html#August_IDebug_Log_System_String_System_Object_System_ConsoleColor_
@@ -925,36 +1668,71 @@ references:
   isSpec: "True"
   fullName: August.IDebug.Log
   nameWithType: IDebug.Log
-- uid: August.ModalComponentData
-  name: ModalComponentData
-  href: api/August.ModalComponentData.html
-  commentId: T:August.ModalComponentData
-  fullName: August.ModalComponentData
-  nameWithType: ModalComponentData
-- uid: August.ModalComponentData.CustomId
-  name: CustomId
-  href: api/August.ModalComponentData.html#August_ModalComponentData_CustomId
-  commentId: F:August.ModalComponentData.CustomId
-  fullName: August.ModalComponentData.CustomId
-  nameWithType: ModalComponentData.CustomId
-- uid: August.ModalComponentData.Type
-  name: Type
-  href: api/August.ModalComponentData.html#August_ModalComponentData_Type
-  commentId: F:August.ModalComponentData.Type
-  fullName: August.ModalComponentData.Type
-  nameWithType: ModalComponentData.Type
-- uid: August.ModalComponentData.Value
-  name: Value
-  href: api/August.ModalComponentData.html#August_ModalComponentData_Value
-  commentId: F:August.ModalComponentData.Value
-  fullName: August.ModalComponentData.Value
-  nameWithType: ModalComponentData.Value
-- uid: August.ModalComponentData.Values
-  name: Values
-  href: api/August.ModalComponentData.html#August_ModalComponentData_Values
-  commentId: F:August.ModalComponentData.Values
-  fullName: August.ModalComponentData.Values
-  nameWithType: ModalComponentData.Values
+- uid: August.IDebug.logColor
+  name: logColor
+  href: api/August.IDebug.html#August_IDebug_logColor
+  commentId: P:August.IDebug.logColor
+  fullName: August.IDebug.logColor
+  nameWithType: IDebug.logColor
+- uid: August.IDebug.logColor*
+  name: logColor
+  href: api/August.IDebug.html#August_IDebug_logColor_
+  commentId: Overload:August.IDebug.logColor
+  isSpec: "True"
+  fullName: August.IDebug.logColor
+  nameWithType: IDebug.logColor
+- uid: August.IDebug.tagFilter
+  name: tagFilter
+  href: api/August.IDebug.html#August_IDebug_tagFilter
+  commentId: P:August.IDebug.tagFilter
+  fullName: August.IDebug.tagFilter
+  nameWithType: IDebug.tagFilter
+- uid: August.IDebug.tagFilter*
+  name: tagFilter
+  href: api/August.IDebug.html#August_IDebug_tagFilter_
+  commentId: Overload:August.IDebug.tagFilter
+  isSpec: "True"
+  fullName: August.IDebug.tagFilter
+  nameWithType: IDebug.tagFilter
+- uid: August.IDebug.useFilter
+  name: useFilter
+  href: api/August.IDebug.html#August_IDebug_useFilter
+  commentId: P:August.IDebug.useFilter
+  fullName: August.IDebug.useFilter
+  nameWithType: IDebug.useFilter
+- uid: August.IDebug.useFilter*
+  name: useFilter
+  href: api/August.IDebug.html#August_IDebug_useFilter_
+  commentId: Overload:August.IDebug.useFilter
+  isSpec: "True"
+  fullName: August.IDebug.useFilter
+  nameWithType: IDebug.useFilter
+- uid: August.IDebug.warningColor
+  name: warningColor
+  href: api/August.IDebug.html#August_IDebug_warningColor
+  commentId: P:August.IDebug.warningColor
+  fullName: August.IDebug.warningColor
+  nameWithType: IDebug.warningColor
+- uid: August.IDebug.warningColor*
+  name: warningColor
+  href: api/August.IDebug.html#August_IDebug_warningColor_
+  commentId: Overload:August.IDebug.warningColor
+  isSpec: "True"
+  fullName: August.IDebug.warningColor
+  nameWithType: IDebug.warningColor
+- uid: August.IDebug.WarningLog(System.String,System.Object)
+  name: WarningLog(String, Object)
+  href: api/August.IDebug.html#August_IDebug_WarningLog_System_String_System_Object_
+  commentId: M:August.IDebug.WarningLog(System.String,System.Object)
+  fullName: August.IDebug.WarningLog(System.String, System.Object)
+  nameWithType: IDebug.WarningLog(String, Object)
+- uid: August.IDebug.WarningLog*
+  name: WarningLog
+  href: api/August.IDebug.html#August_IDebug_WarningLog_
+  commentId: Overload:August.IDebug.WarningLog
+  isSpec: "True"
+  fullName: August.IDebug.WarningLog
+  nameWithType: IDebug.WarningLog
 - uid: August.ModalResultData
   name: ModalResultData
   href: api/August.ModalResultData.html
@@ -989,97 +1767,125 @@ references:
   commentId: F:August.ModalResultData.Results
   fullName: August.ModalResultData.Results
   nameWithType: ModalResultData.Results
-- uid: August.Setup
-  name: August.Setup
-  href: api/August.Setup.html
-  commentId: N:August.Setup
-  fullName: August.Setup
-  nameWithType: August.Setup
-- uid: August.Setup.GlobalPath
-  name: GlobalPath
-  href: api/August.Setup.GlobalPath.html
-  commentId: T:August.Setup.GlobalPath
-  fullName: August.Setup.GlobalPath
-  nameWithType: GlobalPath
-- uid: August.Setup.GlobalPath.BotsConfigFolder
-  name: BotsConfigFolder
-  href: api/August.Setup.GlobalPath.html#August_Setup_GlobalPath_BotsConfigFolder
-  commentId: F:August.Setup.GlobalPath.BotsConfigFolder
-  fullName: August.Setup.GlobalPath.BotsConfigFolder
-  nameWithType: GlobalPath.BotsConfigFolder
-- uid: August.Setup.GlobalPath.BotsDataFolder
-  name: BotsDataFolder
-  href: api/August.Setup.GlobalPath.html#August_Setup_GlobalPath_BotsDataFolder
-  commentId: F:August.Setup.GlobalPath.BotsDataFolder
-  fullName: August.Setup.GlobalPath.BotsDataFolder
-  nameWithType: GlobalPath.BotsDataFolder
-- uid: August.Setup.GlobalPath.BotsExecuteFile
-  name: BotsExecuteFile
-  href: api/August.Setup.GlobalPath.html#August_Setup_GlobalPath_BotsExecuteFile
-  commentId: F:August.Setup.GlobalPath.BotsExecuteFile
-  fullName: August.Setup.GlobalPath.BotsExecuteFile
-  nameWithType: GlobalPath.BotsExecuteFile
-- uid: August.Setup.GlobalPath.BotsIntentFile
-  name: BotsIntentFile
-  href: api/August.Setup.GlobalPath.html#August_Setup_GlobalPath_BotsIntentFile
-  commentId: F:August.Setup.GlobalPath.BotsIntentFile
-  fullName: August.Setup.GlobalPath.BotsIntentFile
-  nameWithType: GlobalPath.BotsIntentFile
-- uid: August.Setup.GlobalPath.BotsModFolder
-  name: BotsModFolder
-  href: api/August.Setup.GlobalPath.html#August_Setup_GlobalPath_BotsModFolder
-  commentId: F:August.Setup.GlobalPath.BotsModFolder
-  fullName: August.Setup.GlobalPath.BotsModFolder
-  nameWithType: GlobalPath.BotsModFolder
-- uid: August.Setup.GlobalPath.BotsRootFolder
-  name: BotsRootFolder
-  href: api/August.Setup.GlobalPath.html#August_Setup_GlobalPath_BotsRootFolder
-  commentId: F:August.Setup.GlobalPath.BotsRootFolder
-  fullName: August.Setup.GlobalPath.BotsRootFolder
-  nameWithType: GlobalPath.BotsRootFolder
-- uid: August.Setup.GlobalPath.BotsSettingFile
-  name: BotsSettingFile
-  href: api/August.Setup.GlobalPath.html#August_Setup_GlobalPath_BotsSettingFile
-  commentId: F:August.Setup.GlobalPath.BotsSettingFile
-  fullName: August.Setup.GlobalPath.BotsSettingFile
-  nameWithType: GlobalPath.BotsSettingFile
-- uid: August.Setup.GlobalPath.FrameworkProperties
-  name: FrameworkProperties
-  href: api/August.Setup.GlobalPath.html#August_Setup_GlobalPath_FrameworkProperties
-  commentId: F:August.Setup.GlobalPath.FrameworkProperties
-  fullName: August.Setup.GlobalPath.FrameworkProperties
-  nameWithType: GlobalPath.FrameworkProperties
-- uid: August.Setup.Properties
-  name: Properties
-  href: api/August.Setup.Properties.html
-  commentId: T:August.Setup.Properties
-  fullName: August.Setup.Properties
-  nameWithType: Properties
-- uid: August.Setup.Properties.Default
-  name: Default
-  href: api/August.Setup.Properties.html#August_Setup_Properties_Default
-  commentId: P:August.Setup.Properties.Default
-  fullName: August.Setup.Properties.Default
-  nameWithType: Properties.Default
-- uid: August.Setup.Properties.Default*
-  name: Default
-  href: api/August.Setup.Properties.html#August_Setup_Properties_Default_
-  commentId: Overload:August.Setup.Properties.Default
+- uid: August.ModuleManager
+  name: ModuleManager
+  href: api/August.ModuleManager.html
+  commentId: T:August.ModuleManager
+  fullName: August.ModuleManager
+  nameWithType: ModuleManager
+- uid: August.ModuleManager.Add(System.Reflection.Assembly,August.FrameworkContext)
+  name: Add(Assembly, FrameworkContext)
+  href: api/August.ModuleManager.html#August_ModuleManager_Add_System_Reflection_Assembly_August_FrameworkContext_
+  commentId: M:August.ModuleManager.Add(System.Reflection.Assembly,August.FrameworkContext)
+  fullName: August.ModuleManager.Add(System.Reflection.Assembly, August.FrameworkContext)
+  nameWithType: ModuleManager.Add(Assembly, FrameworkContext)
+- uid: August.ModuleManager.Add*
+  name: Add
+  href: api/August.ModuleManager.html#August_ModuleManager_Add_
+  commentId: Overload:August.ModuleManager.Add
   isSpec: "True"
-  fullName: August.Setup.Properties.Default
-  nameWithType: Properties.Default
-- uid: August.Setup.Properties.UpdateMilliseconds
-  name: UpdateMilliseconds
-  href: api/August.Setup.Properties.html#August_Setup_Properties_UpdateMilliseconds
-  commentId: F:August.Setup.Properties.UpdateMilliseconds
-  fullName: August.Setup.Properties.UpdateMilliseconds
-  nameWithType: Properties.UpdateMilliseconds
+  fullName: August.ModuleManager.Add
+  nameWithType: ModuleManager.Add
+- uid: August.ModuleManager.GetFrameworkContext(System.Reflection.Assembly)
+  name: GetFrameworkContext(Assembly)
+  href: api/August.ModuleManager.html#August_ModuleManager_GetFrameworkContext_System_Reflection_Assembly_
+  commentId: M:August.ModuleManager.GetFrameworkContext(System.Reflection.Assembly)
+  fullName: August.ModuleManager.GetFrameworkContext(System.Reflection.Assembly)
+  nameWithType: ModuleManager.GetFrameworkContext(Assembly)
+- uid: August.ModuleManager.GetFrameworkContext*
+  name: GetFrameworkContext
+  href: api/August.ModuleManager.html#August_ModuleManager_GetFrameworkContext_
+  commentId: Overload:August.ModuleManager.GetFrameworkContext
+  isSpec: "True"
+  fullName: August.ModuleManager.GetFrameworkContext
+  nameWithType: ModuleManager.GetFrameworkContext
+- uid: August.ModuleManager.Remove(System.Reflection.Assembly)
+  name: Remove(Assembly)
+  href: api/August.ModuleManager.html#August_ModuleManager_Remove_System_Reflection_Assembly_
+  commentId: M:August.ModuleManager.Remove(System.Reflection.Assembly)
+  fullName: August.ModuleManager.Remove(System.Reflection.Assembly)
+  nameWithType: ModuleManager.Remove(Assembly)
+- uid: August.ModuleManager.Remove*
+  name: Remove
+  href: api/August.ModuleManager.html#August_ModuleManager_Remove_
+  commentId: Overload:August.ModuleManager.Remove
+  isSpec: "True"
+  fullName: August.ModuleManager.Remove
+  nameWithType: ModuleManager.Remove
+- uid: August.SelectMenuDataResult
+  name: SelectMenuDataResult
+  href: api/August.SelectMenuDataResult.html
+  commentId: T:August.SelectMenuDataResult
+  fullName: August.SelectMenuDataResult
+  nameWithType: SelectMenuDataResult
+- uid: August.SelectMenuDataResult.data
+  name: data
+  href: api/August.SelectMenuDataResult.html#August_SelectMenuDataResult_data
+  commentId: F:August.SelectMenuDataResult.data
+  fullName: August.SelectMenuDataResult.data
+  nameWithType: SelectMenuDataResult.data
+- uid: August.SelectMenuDataResult.interaction
+  name: interaction
+  href: api/August.SelectMenuDataResult.html#August_SelectMenuDataResult_interaction
+  commentId: F:August.SelectMenuDataResult.interaction
+  fullName: August.SelectMenuDataResult.interaction
+  nameWithType: SelectMenuDataResult.interaction
+- uid: August.SelectMenuInteractionAttribute
+  name: SelectMenuInteractionAttribute
+  href: api/August.SelectMenuInteractionAttribute.html
+  commentId: T:August.SelectMenuInteractionAttribute
+  fullName: August.SelectMenuInteractionAttribute
+  nameWithType: SelectMenuInteractionAttribute
+- uid: August.SelectMenuInteractionAttribute.#ctor(System.String)
+  name: SelectMenuInteractionAttribute(String)
+  href: api/August.SelectMenuInteractionAttribute.html#August_SelectMenuInteractionAttribute__ctor_System_String_
+  commentId: M:August.SelectMenuInteractionAttribute.#ctor(System.String)
+  fullName: August.SelectMenuInteractionAttribute.SelectMenuInteractionAttribute(System.String)
+  nameWithType: SelectMenuInteractionAttribute.SelectMenuInteractionAttribute(String)
+- uid: August.SelectMenuInteractionAttribute.#ctor*
+  name: SelectMenuInteractionAttribute
+  href: api/August.SelectMenuInteractionAttribute.html#August_SelectMenuInteractionAttribute__ctor_
+  commentId: Overload:August.SelectMenuInteractionAttribute.#ctor
+  isSpec: "True"
+  fullName: August.SelectMenuInteractionAttribute.SelectMenuInteractionAttribute
+  nameWithType: SelectMenuInteractionAttribute.SelectMenuInteractionAttribute
+- uid: August.SelectMenuInteractionAttribute.CustomId
+  name: CustomId
+  href: api/August.SelectMenuInteractionAttribute.html#August_SelectMenuInteractionAttribute_CustomId
+  commentId: P:August.SelectMenuInteractionAttribute.CustomId
+  fullName: August.SelectMenuInteractionAttribute.CustomId
+  nameWithType: SelectMenuInteractionAttribute.CustomId
+- uid: August.SelectMenuInteractionAttribute.CustomId*
+  name: CustomId
+  href: api/August.SelectMenuInteractionAttribute.html#August_SelectMenuInteractionAttribute_CustomId_
+  commentId: Overload:August.SelectMenuInteractionAttribute.CustomId
+  isSpec: "True"
+  fullName: August.SelectMenuInteractionAttribute.CustomId
+  nameWithType: SelectMenuInteractionAttribute.CustomId
 - uid: August.Struct
   name: August.Struct
   href: api/August.Struct.html
   commentId: N:August.Struct
   fullName: August.Struct
   nameWithType: August.Struct
+- uid: August.Struct.BotCommandList
+  name: BotCommandList
+  href: api/August.Struct.BotCommandList.html
+  commentId: T:August.Struct.BotCommandList
+  fullName: August.Struct.BotCommandList
+  nameWithType: BotCommandList
+- uid: August.Struct.BotCommandList.CommandList
+  name: CommandList
+  href: api/August.Struct.BotCommandList.html#August_Struct_BotCommandList_CommandList
+  commentId: F:August.Struct.BotCommandList.CommandList
+  fullName: August.Struct.BotCommandList.CommandList
+  nameWithType: BotCommandList.CommandList
+- uid: August.Struct.BotCommandList.ModuleName
+  name: ModuleName
+  href: api/August.Struct.BotCommandList.html#August_Struct_BotCommandList_ModuleName
+  commentId: F:August.Struct.BotCommandList.ModuleName
+  fullName: August.Struct.BotCommandList.ModuleName
+  nameWithType: BotCommandList.ModuleName
 - uid: August.Struct.BotSetting
   name: BotSetting
   href: api/August.Struct.BotSetting.html
@@ -1117,12 +1923,6 @@ references:
   commentId: F:August.Struct.BotSetting.LoadMods
   fullName: August.Struct.BotSetting.LoadMods
   nameWithType: BotSetting.LoadMods
-- uid: August.Struct.BotSetting.Loglevel
-  name: Loglevel
-  href: api/August.Struct.BotSetting.html#August_Struct_BotSetting_Loglevel
-  commentId: F:August.Struct.BotSetting.Loglevel
-  fullName: August.Struct.BotSetting.Loglevel
-  nameWithType: BotSetting.Loglevel
 - uid: August.Struct.BotSetting.Name
   name: Name
   href: api/August.Struct.BotSetting.html#August_Struct_BotSetting_Name
@@ -1177,72 +1977,380 @@ references:
   commentId: F:August.Struct.BotSettings.setting
   fullName: August.Struct.BotSettings.setting
   nameWithType: BotSettings.setting
+- uid: August.Struct.BotStatus
+  name: BotStatus
+  href: api/August.Struct.BotStatus.html
+  commentId: T:August.Struct.BotStatus
+  fullName: August.Struct.BotStatus
+  nameWithType: BotStatus
+- uid: August.Struct.BotStatus.BotState
+  name: BotState
+  href: api/August.Struct.BotStatus.html#August_Struct_BotStatus_BotState
+  commentId: F:August.Struct.BotStatus.BotState
+  fullName: August.Struct.BotStatus.BotState
+  nameWithType: BotStatus.BotState
+- uid: August.Struct.BotStatus.ConnectionState
+  name: ConnectionState
+  href: api/August.Struct.BotStatus.html#August_Struct_BotStatus_ConnectionState
+  commentId: F:August.Struct.BotStatus.ConnectionState
+  fullName: August.Struct.BotStatus.ConnectionState
+  nameWithType: BotStatus.ConnectionState
+- uid: August.Struct.BotStatus.GuildIDs
+  name: GuildIDs
+  href: api/August.Struct.BotStatus.html#August_Struct_BotStatus_GuildIDs
+  commentId: F:August.Struct.BotStatus.GuildIDs
+  fullName: August.Struct.BotStatus.GuildIDs
+  nameWithType: BotStatus.GuildIDs
+- uid: August.Struct.BotStatus.IsVaild
+  name: IsVaild
+  href: api/August.Struct.BotStatus.html#August_Struct_BotStatus_IsVaild
+  commentId: F:August.Struct.BotStatus.IsVaild
+  fullName: August.Struct.BotStatus.IsVaild
+  nameWithType: BotStatus.IsVaild
+- uid: August.Struct.BotStatus.LoginState
+  name: LoginState
+  href: api/August.Struct.BotStatus.html#August_Struct_BotStatus_LoginState
+  commentId: F:August.Struct.BotStatus.LoginState
+  fullName: August.Struct.BotStatus.LoginState
+  nameWithType: BotStatus.LoginState
+- uid: August.Struct.BotStatus.Name
+  name: Name
+  href: api/August.Struct.BotStatus.html#August_Struct_BotStatus_Name
+  commentId: F:August.Struct.BotStatus.Name
+  fullName: August.Struct.BotStatus.Name
+  nameWithType: BotStatus.Name
+- uid: August.Struct.BotStatus.op_Equality(August.Struct.BotStatus,August.Struct.BotStatus)
+  name: Equality(BotStatus, BotStatus)
+  href: api/August.Struct.BotStatus.html#August_Struct_BotStatus_op_Equality_August_Struct_BotStatus_August_Struct_BotStatus_
+  commentId: M:August.Struct.BotStatus.op_Equality(August.Struct.BotStatus,August.Struct.BotStatus)
+  fullName: August.Struct.BotStatus.Equality(August.Struct.BotStatus, August.Struct.BotStatus)
+  nameWithType: BotStatus.Equality(BotStatus, BotStatus)
+- uid: August.Struct.BotStatus.op_Equality*
+  name: Equality
+  href: api/August.Struct.BotStatus.html#August_Struct_BotStatus_op_Equality_
+  commentId: Overload:August.Struct.BotStatus.op_Equality
+  isSpec: "True"
+  fullName: August.Struct.BotStatus.Equality
+  nameWithType: BotStatus.Equality
+- uid: August.Struct.BotStatus.op_Inequality(August.Struct.BotStatus,August.Struct.BotStatus)
+  name: Inequality(BotStatus, BotStatus)
+  href: api/August.Struct.BotStatus.html#August_Struct_BotStatus_op_Inequality_August_Struct_BotStatus_August_Struct_BotStatus_
+  commentId: M:August.Struct.BotStatus.op_Inequality(August.Struct.BotStatus,August.Struct.BotStatus)
+  fullName: August.Struct.BotStatus.Inequality(August.Struct.BotStatus, August.Struct.BotStatus)
+  nameWithType: BotStatus.Inequality(BotStatus, BotStatus)
+- uid: August.Struct.BotStatus.op_Inequality*
+  name: Inequality
+  href: api/August.Struct.BotStatus.html#August_Struct_BotStatus_op_Inequality_
+  commentId: Overload:August.Struct.BotStatus.op_Inequality
+  isSpec: "True"
+  fullName: August.Struct.BotStatus.Inequality
+  nameWithType: BotStatus.Inequality
+- uid: August.Struct.BotStatus.Path
+  name: Path
+  href: api/August.Struct.BotStatus.html#August_Struct_BotStatus_Path
+  commentId: F:August.Struct.BotStatus.Path
+  fullName: August.Struct.BotStatus.Path
+  nameWithType: BotStatus.Path
+- uid: August.Struct.BotStatus.ProfileUrl
+  name: ProfileUrl
+  href: api/August.Struct.BotStatus.html#August_Struct_BotStatus_ProfileUrl
+  commentId: F:August.Struct.BotStatus.ProfileUrl
+  fullName: August.Struct.BotStatus.ProfileUrl
+  nameWithType: BotStatus.ProfileUrl
+- uid: August.Struct.BotStatus.UserID
+  name: UserID
+  href: api/August.Struct.BotStatus.html#August_Struct_BotStatus_UserID
+  commentId: F:August.Struct.BotStatus.UserID
+  fullName: August.Struct.BotStatus.UserID
+  nameWithType: BotStatus.UserID
 - uid: August.Struct.ExecutionSetting
   name: ExecutionSetting
   href: api/August.Struct.ExecutionSetting.html
   commentId: T:August.Struct.ExecutionSetting
   fullName: August.Struct.ExecutionSetting
   nameWithType: ExecutionSetting
-- uid: August.Struct.ExecutionSetting.GuildInviteCreated
-  name: GuildInviteCreated
-  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_GuildInviteCreated
-  commentId: F:August.Struct.ExecutionSetting.GuildInviteCreated
-  fullName: August.Struct.ExecutionSetting.GuildInviteCreated
-  nameWithType: ExecutionSetting.GuildInviteCreated
-- uid: August.Struct.ExecutionSetting.GuildInviteDelete
-  name: GuildInviteDelete
-  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_GuildInviteDelete
-  commentId: F:August.Struct.ExecutionSetting.GuildInviteDelete
-  fullName: August.Struct.ExecutionSetting.GuildInviteDelete
-  nameWithType: ExecutionSetting.GuildInviteDelete
-- uid: August.Struct.ExecutionSetting.GuildMemberJoin
-  name: GuildMemberJoin
-  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_GuildMemberJoin
-  commentId: F:August.Struct.ExecutionSetting.GuildMemberJoin
-  fullName: August.Struct.ExecutionSetting.GuildMemberJoin
-  nameWithType: ExecutionSetting.GuildMemberJoin
-- uid: August.Struct.ExecutionSetting.GuildMemberLeft
-  name: GuildMemberLeft
-  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_GuildMemberLeft
-  commentId: F:August.Struct.ExecutionSetting.GuildMemberLeft
-  fullName: August.Struct.ExecutionSetting.GuildMemberLeft
-  nameWithType: ExecutionSetting.GuildMemberLeft
+- uid: August.Struct.ExecutionSetting.ChannelCreated
+  name: ChannelCreated
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_ChannelCreated
+  commentId: F:August.Struct.ExecutionSetting.ChannelCreated
+  fullName: August.Struct.ExecutionSetting.ChannelCreated
+  nameWithType: ExecutionSetting.ChannelCreated
+- uid: August.Struct.ExecutionSetting.ChannelDestroyed
+  name: ChannelDestroyed
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_ChannelDestroyed
+  commentId: F:August.Struct.ExecutionSetting.ChannelDestroyed
+  fullName: August.Struct.ExecutionSetting.ChannelDestroyed
+  nameWithType: ExecutionSetting.ChannelDestroyed
+- uid: August.Struct.ExecutionSetting.ChannelUpdated
+  name: ChannelUpdated
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_ChannelUpdated
+  commentId: F:August.Struct.ExecutionSetting.ChannelUpdated
+  fullName: August.Struct.ExecutionSetting.ChannelUpdated
+  nameWithType: ExecutionSetting.ChannelUpdated
+- uid: August.Struct.ExecutionSetting.CurrentUserUpdated
+  name: CurrentUserUpdated
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_CurrentUserUpdated
+  commentId: F:August.Struct.ExecutionSetting.CurrentUserUpdated
+  fullName: August.Struct.ExecutionSetting.CurrentUserUpdated
+  nameWithType: ExecutionSetting.CurrentUserUpdated
+- uid: August.Struct.ExecutionSetting.Exit
+  name: Exit
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_Exit
+  commentId: F:August.Struct.ExecutionSetting.Exit
+  fullName: August.Struct.ExecutionSetting.Exit
+  nameWithType: ExecutionSetting.Exit
+- uid: August.Struct.ExecutionSetting.GuildAvailable
+  name: GuildAvailable
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_GuildAvailable
+  commentId: F:August.Struct.ExecutionSetting.GuildAvailable
+  fullName: August.Struct.ExecutionSetting.GuildAvailable
+  nameWithType: ExecutionSetting.GuildAvailable
+- uid: August.Struct.ExecutionSetting.GuildMembersDownloaded
+  name: GuildMembersDownloaded
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_GuildMembersDownloaded
+  commentId: F:August.Struct.ExecutionSetting.GuildMembersDownloaded
+  fullName: August.Struct.ExecutionSetting.GuildMembersDownloaded
+  nameWithType: ExecutionSetting.GuildMembersDownloaded
+- uid: August.Struct.ExecutionSetting.GuildScheduledEventCancelled
+  name: GuildScheduledEventCancelled
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_GuildScheduledEventCancelled
+  commentId: F:August.Struct.ExecutionSetting.GuildScheduledEventCancelled
+  fullName: August.Struct.ExecutionSetting.GuildScheduledEventCancelled
+  nameWithType: ExecutionSetting.GuildScheduledEventCancelled
+- uid: August.Struct.ExecutionSetting.GuildScheduledEventCompleted
+  name: GuildScheduledEventCompleted
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_GuildScheduledEventCompleted
+  commentId: F:August.Struct.ExecutionSetting.GuildScheduledEventCompleted
+  fullName: August.Struct.ExecutionSetting.GuildScheduledEventCompleted
+  nameWithType: ExecutionSetting.GuildScheduledEventCompleted
+- uid: August.Struct.ExecutionSetting.GuildScheduledEventCreated
+  name: GuildScheduledEventCreated
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_GuildScheduledEventCreated
+  commentId: F:August.Struct.ExecutionSetting.GuildScheduledEventCreated
+  fullName: August.Struct.ExecutionSetting.GuildScheduledEventCreated
+  nameWithType: ExecutionSetting.GuildScheduledEventCreated
+- uid: August.Struct.ExecutionSetting.GuildScheduledEventStarted
+  name: GuildScheduledEventStarted
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_GuildScheduledEventStarted
+  commentId: F:August.Struct.ExecutionSetting.GuildScheduledEventStarted
+  fullName: August.Struct.ExecutionSetting.GuildScheduledEventStarted
+  nameWithType: ExecutionSetting.GuildScheduledEventStarted
+- uid: August.Struct.ExecutionSetting.GuildStickerCreated
+  name: GuildStickerCreated
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_GuildStickerCreated
+  commentId: F:August.Struct.ExecutionSetting.GuildStickerCreated
+  fullName: August.Struct.ExecutionSetting.GuildStickerCreated
+  nameWithType: ExecutionSetting.GuildStickerCreated
+- uid: August.Struct.ExecutionSetting.GuildStickerDeleted
+  name: GuildStickerDeleted
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_GuildStickerDeleted
+  commentId: F:August.Struct.ExecutionSetting.GuildStickerDeleted
+  fullName: August.Struct.ExecutionSetting.GuildStickerDeleted
+  nameWithType: ExecutionSetting.GuildStickerDeleted
+- uid: August.Struct.ExecutionSetting.GuildStickerUpdated
+  name: GuildStickerUpdated
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_GuildStickerUpdated
+  commentId: F:August.Struct.ExecutionSetting.GuildStickerUpdated
+  fullName: August.Struct.ExecutionSetting.GuildStickerUpdated
+  nameWithType: ExecutionSetting.GuildStickerUpdated
+- uid: August.Struct.ExecutionSetting.GuildUnavailable
+  name: GuildUnavailable
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_GuildUnavailable
+  commentId: F:August.Struct.ExecutionSetting.GuildUnavailable
+  fullName: August.Struct.ExecutionSetting.GuildUnavailable
+  nameWithType: ExecutionSetting.GuildUnavailable
+- uid: August.Struct.ExecutionSetting.GuildUpdated
+  name: GuildUpdated
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_GuildUpdated
+  commentId: F:August.Struct.ExecutionSetting.GuildUpdated
+  fullName: August.Struct.ExecutionSetting.GuildUpdated
+  nameWithType: ExecutionSetting.GuildUpdated
 - uid: August.Struct.ExecutionSetting.Initilization
   name: Initilization
   href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_Initilization
   commentId: F:August.Struct.ExecutionSetting.Initilization
   fullName: August.Struct.ExecutionSetting.Initilization
   nameWithType: ExecutionSetting.Initilization
-- uid: August.Struct.ExecutionSetting.MemberJoinedGuild
-  name: MemberJoinedGuild
-  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_MemberJoinedGuild
-  commentId: F:August.Struct.ExecutionSetting.MemberJoinedGuild
-  fullName: August.Struct.ExecutionSetting.MemberJoinedGuild
-  nameWithType: ExecutionSetting.MemberJoinedGuild
-- uid: August.Struct.ExecutionSetting.MemberLeftGuild
-  name: MemberLeftGuild
-  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_MemberLeftGuild
-  commentId: F:August.Struct.ExecutionSetting.MemberLeftGuild
-  fullName: August.Struct.ExecutionSetting.MemberLeftGuild
-  nameWithType: ExecutionSetting.MemberLeftGuild
+- uid: August.Struct.ExecutionSetting.InviteCreated
+  name: InviteCreated
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_InviteCreated
+  commentId: F:August.Struct.ExecutionSetting.InviteCreated
+  fullName: August.Struct.ExecutionSetting.InviteCreated
+  nameWithType: ExecutionSetting.InviteCreated
+- uid: August.Struct.ExecutionSetting.InviteDeleted
+  name: InviteDeleted
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_InviteDeleted
+  commentId: F:August.Struct.ExecutionSetting.InviteDeleted
+  fullName: August.Struct.ExecutionSetting.InviteDeleted
+  nameWithType: ExecutionSetting.InviteDeleted
+- uid: August.Struct.ExecutionSetting.JoinedGuild
+  name: JoinedGuild
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_JoinedGuild
+  commentId: F:August.Struct.ExecutionSetting.JoinedGuild
+  fullName: August.Struct.ExecutionSetting.JoinedGuild
+  nameWithType: ExecutionSetting.JoinedGuild
+- uid: August.Struct.ExecutionSetting.LeftGuild
+  name: LeftGuild
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_LeftGuild
+  commentId: F:August.Struct.ExecutionSetting.LeftGuild
+  fullName: August.Struct.ExecutionSetting.LeftGuild
+  nameWithType: ExecutionSetting.LeftGuild
+- uid: August.Struct.ExecutionSetting.MessageReceived
+  name: MessageReceived
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_MessageReceived
+  commentId: F:August.Struct.ExecutionSetting.MessageReceived
+  fullName: August.Struct.ExecutionSetting.MessageReceived
+  nameWithType: ExecutionSetting.MessageReceived
+- uid: August.Struct.ExecutionSetting.ModulesLoaded
+  name: ModulesLoaded
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_ModulesLoaded
+  commentId: F:August.Struct.ExecutionSetting.ModulesLoaded
+  fullName: August.Struct.ExecutionSetting.ModulesLoaded
+  nameWithType: ExecutionSetting.ModulesLoaded
+- uid: August.Struct.ExecutionSetting.ModulesUnLoaded
+  name: ModulesUnLoaded
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_ModulesUnLoaded
+  commentId: F:August.Struct.ExecutionSetting.ModulesUnLoaded
+  fullName: August.Struct.ExecutionSetting.ModulesUnLoaded
+  nameWithType: ExecutionSetting.ModulesUnLoaded
+- uid: August.Struct.ExecutionSetting.PresenceUpdated
+  name: PresenceUpdated
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_PresenceUpdated
+  commentId: F:August.Struct.ExecutionSetting.PresenceUpdated
+  fullName: August.Struct.ExecutionSetting.PresenceUpdated
+  nameWithType: ExecutionSetting.PresenceUpdated
+- uid: August.Struct.ExecutionSetting.RecipientAdded
+  name: RecipientAdded
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_RecipientAdded
+  commentId: F:August.Struct.ExecutionSetting.RecipientAdded
+  fullName: August.Struct.ExecutionSetting.RecipientAdded
+  nameWithType: ExecutionSetting.RecipientAdded
+- uid: August.Struct.ExecutionSetting.RecipientRemoved
+  name: RecipientRemoved
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_RecipientRemoved
+  commentId: F:August.Struct.ExecutionSetting.RecipientRemoved
+  fullName: August.Struct.ExecutionSetting.RecipientRemoved
+  nameWithType: ExecutionSetting.RecipientRemoved
+- uid: August.Struct.ExecutionSetting.RequestToSpeak
+  name: RequestToSpeak
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_RequestToSpeak
+  commentId: F:August.Struct.ExecutionSetting.RequestToSpeak
+  fullName: August.Struct.ExecutionSetting.RequestToSpeak
+  nameWithType: ExecutionSetting.RequestToSpeak
+- uid: August.Struct.ExecutionSetting.RoleCreated
+  name: RoleCreated
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_RoleCreated
+  commentId: F:August.Struct.ExecutionSetting.RoleCreated
+  fullName: August.Struct.ExecutionSetting.RoleCreated
+  nameWithType: ExecutionSetting.RoleCreated
+- uid: August.Struct.ExecutionSetting.RoleDeleted
+  name: RoleDeleted
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_RoleDeleted
+  commentId: F:August.Struct.ExecutionSetting.RoleDeleted
+  fullName: August.Struct.ExecutionSetting.RoleDeleted
+  nameWithType: ExecutionSetting.RoleDeleted
+- uid: August.Struct.ExecutionSetting.RoleUpdated
+  name: RoleUpdated
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_RoleUpdated
+  commentId: F:August.Struct.ExecutionSetting.RoleUpdated
+  fullName: August.Struct.ExecutionSetting.RoleUpdated
+  nameWithType: ExecutionSetting.RoleUpdated
 - uid: August.Struct.ExecutionSetting.Shutdown
   name: Shutdown
   href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_Shutdown
   commentId: F:August.Struct.ExecutionSetting.Shutdown
   fullName: August.Struct.ExecutionSetting.Shutdown
   nameWithType: ExecutionSetting.Shutdown
+- uid: August.Struct.ExecutionSetting.SpeakerAdded
+  name: SpeakerAdded
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_SpeakerAdded
+  commentId: F:August.Struct.ExecutionSetting.SpeakerAdded
+  fullName: August.Struct.ExecutionSetting.SpeakerAdded
+  nameWithType: ExecutionSetting.SpeakerAdded
+- uid: August.Struct.ExecutionSetting.SpeakerRemoved
+  name: SpeakerRemoved
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_SpeakerRemoved
+  commentId: F:August.Struct.ExecutionSetting.SpeakerRemoved
+  fullName: August.Struct.ExecutionSetting.SpeakerRemoved
+  nameWithType: ExecutionSetting.SpeakerRemoved
+- uid: August.Struct.ExecutionSetting.StageEnded
+  name: StageEnded
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_StageEnded
+  commentId: F:August.Struct.ExecutionSetting.StageEnded
+  fullName: August.Struct.ExecutionSetting.StageEnded
+  nameWithType: ExecutionSetting.StageEnded
+- uid: August.Struct.ExecutionSetting.StageStarted
+  name: StageStarted
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_StageStarted
+  commentId: F:August.Struct.ExecutionSetting.StageStarted
+  fullName: August.Struct.ExecutionSetting.StageStarted
+  nameWithType: ExecutionSetting.StageStarted
+- uid: August.Struct.ExecutionSetting.StageUpdated
+  name: StageUpdated
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_StageUpdated
+  commentId: F:August.Struct.ExecutionSetting.StageUpdated
+  fullName: August.Struct.ExecutionSetting.StageUpdated
+  nameWithType: ExecutionSetting.StageUpdated
+- uid: August.Struct.ExecutionSetting.ThreadCreated
+  name: ThreadCreated
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_ThreadCreated
+  commentId: F:August.Struct.ExecutionSetting.ThreadCreated
+  fullName: August.Struct.ExecutionSetting.ThreadCreated
+  nameWithType: ExecutionSetting.ThreadCreated
+- uid: August.Struct.ExecutionSetting.ThreadMemberJoined
+  name: ThreadMemberJoined
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_ThreadMemberJoined
+  commentId: F:August.Struct.ExecutionSetting.ThreadMemberJoined
+  fullName: August.Struct.ExecutionSetting.ThreadMemberJoined
+  nameWithType: ExecutionSetting.ThreadMemberJoined
+- uid: August.Struct.ExecutionSetting.ThreadMemberLeft
+  name: ThreadMemberLeft
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_ThreadMemberLeft
+  commentId: F:August.Struct.ExecutionSetting.ThreadMemberLeft
+  fullName: August.Struct.ExecutionSetting.ThreadMemberLeft
+  nameWithType: ExecutionSetting.ThreadMemberLeft
 - uid: August.Struct.ExecutionSetting.Update
   name: Update
   href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_Update
   commentId: F:August.Struct.ExecutionSetting.Update
   fullName: August.Struct.ExecutionSetting.Update
   nameWithType: ExecutionSetting.Update
-- uid: August.Struct.ExecutionSetting.VoiceStateChanged
-  name: VoiceStateChanged
-  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_VoiceStateChanged
-  commentId: F:August.Struct.ExecutionSetting.VoiceStateChanged
-  fullName: August.Struct.ExecutionSetting.VoiceStateChanged
-  nameWithType: ExecutionSetting.VoiceStateChanged
+- uid: August.Struct.ExecutionSetting.UserBanned
+  name: UserBanned
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_UserBanned
+  commentId: F:August.Struct.ExecutionSetting.UserBanned
+  fullName: August.Struct.ExecutionSetting.UserBanned
+  nameWithType: ExecutionSetting.UserBanned
+- uid: August.Struct.ExecutionSetting.UserJoined
+  name: UserJoined
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_UserJoined
+  commentId: F:August.Struct.ExecutionSetting.UserJoined
+  fullName: August.Struct.ExecutionSetting.UserJoined
+  nameWithType: ExecutionSetting.UserJoined
+- uid: August.Struct.ExecutionSetting.UserLeft
+  name: UserLeft
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_UserLeft
+  commentId: F:August.Struct.ExecutionSetting.UserLeft
+  fullName: August.Struct.ExecutionSetting.UserLeft
+  nameWithType: ExecutionSetting.UserLeft
+- uid: August.Struct.ExecutionSetting.UserUnBanned
+  name: UserUnBanned
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_UserUnBanned
+  commentId: F:August.Struct.ExecutionSetting.UserUnBanned
+  fullName: August.Struct.ExecutionSetting.UserUnBanned
+  nameWithType: ExecutionSetting.UserUnBanned
+- uid: August.Struct.ExecutionSetting.UserUpdate
+  name: UserUpdate
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_UserUpdate
+  commentId: F:August.Struct.ExecutionSetting.UserUpdate
+  fullName: August.Struct.ExecutionSetting.UserUpdate
+  nameWithType: ExecutionSetting.UserUpdate
+- uid: August.Struct.ExecutionSetting.VoiceServerUpdated
+  name: VoiceServerUpdated
+  href: api/August.Struct.ExecutionSetting.html#August_Struct_ExecutionSetting_VoiceServerUpdated
+  commentId: F:August.Struct.ExecutionSetting.VoiceServerUpdated
+  fullName: August.Struct.ExecutionSetting.VoiceServerUpdated
+  nameWithType: ExecutionSetting.VoiceServerUpdated
 - uid: August.Struct.GatewayIntent
   name: GatewayIntent
   href: api/August.Struct.GatewayIntent.html
@@ -1292,19 +2400,6 @@ references:
   commentId: F:August.Struct.GatewayIntent.DirectMessageTyping
   fullName: August.Struct.GatewayIntent.DirectMessageTyping
   nameWithType: GatewayIntent.DirectMessageTyping
-- uid: August.Struct.GatewayIntent.GetFlag
-  name: GetFlag()
-  href: api/August.Struct.GatewayIntent.html#August_Struct_GatewayIntent_GetFlag
-  commentId: M:August.Struct.GatewayIntent.GetFlag
-  fullName: August.Struct.GatewayIntent.GetFlag()
-  nameWithType: GatewayIntent.GetFlag()
-- uid: August.Struct.GatewayIntent.GetFlag*
-  name: GetFlag
-  href: api/August.Struct.GatewayIntent.html#August_Struct_GatewayIntent_GetFlag_
-  commentId: Overload:August.Struct.GatewayIntent.GetFlag
-  isSpec: "True"
-  fullName: August.Struct.GatewayIntent.GetFlag
-  nameWithType: GatewayIntent.GetFlag
 - uid: August.Struct.GatewayIntent.GuildBans
   name: GuildBans
   href: api/August.Struct.GatewayIntent.html#August_Struct_GatewayIntent_GuildBans
@@ -1383,6 +2478,61 @@ references:
   commentId: F:August.Struct.GatewayIntent.GuildWebhooks
   fullName: August.Struct.GatewayIntent.GuildWebhooks
   nameWithType: GatewayIntent.GuildWebhooks
+- uid: August.Struct.GatewayIntentExtensions
+  name: GatewayIntentExtensions
+  href: api/August.Struct.GatewayIntentExtensions.html
+  commentId: T:August.Struct.GatewayIntentExtensions
+  fullName: August.Struct.GatewayIntentExtensions
+  nameWithType: GatewayIntentExtensions
+- uid: August.Struct.GatewayIntentExtensions.GetFlag(August.Struct.GatewayIntent)
+  name: GetFlag(GatewayIntent)
+  href: api/August.Struct.GatewayIntentExtensions.html#August_Struct_GatewayIntentExtensions_GetFlag_August_Struct_GatewayIntent_
+  commentId: M:August.Struct.GatewayIntentExtensions.GetFlag(August.Struct.GatewayIntent)
+  fullName: August.Struct.GatewayIntentExtensions.GetFlag(August.Struct.GatewayIntent)
+  nameWithType: GatewayIntentExtensions.GetFlag(GatewayIntent)
+- uid: August.Struct.GatewayIntentExtensions.GetFlag*
+  name: GetFlag
+  href: api/August.Struct.GatewayIntentExtensions.html#August_Struct_GatewayIntentExtensions_GetFlag_
+  commentId: Overload:August.Struct.GatewayIntentExtensions.GetFlag
+  isSpec: "True"
+  fullName: August.Struct.GatewayIntentExtensions.GetFlag
+  nameWithType: GatewayIntentExtensions.GetFlag
+- uid: August.Struct.ModuleCommandList
+  name: ModuleCommandList
+  href: api/August.Struct.ModuleCommandList.html
+  commentId: T:August.Struct.ModuleCommandList
+  fullName: August.Struct.ModuleCommandList
+  nameWithType: ModuleCommandList
+- uid: August.Struct.ModuleCommandList.ArgumentLength
+  name: ArgumentLength
+  href: api/August.Struct.ModuleCommandList.html#August_Struct_ModuleCommandList_ArgumentLength
+  commentId: F:August.Struct.ModuleCommandList.ArgumentLength
+  fullName: August.Struct.ModuleCommandList.ArgumentLength
+  nameWithType: ModuleCommandList.ArgumentLength
+- uid: August.Struct.ModuleCommandList.ArugmentType
+  name: ArugmentType
+  href: api/August.Struct.ModuleCommandList.html#August_Struct_ModuleCommandList_ArugmentType
+  commentId: F:August.Struct.ModuleCommandList.ArugmentType
+  fullName: August.Struct.ModuleCommandList.ArugmentType
+  nameWithType: ModuleCommandList.ArugmentType
+- uid: August.Struct.ModuleCommandList.Command
+  name: Command
+  href: api/August.Struct.ModuleCommandList.html#August_Struct_ModuleCommandList_Command
+  commentId: F:August.Struct.ModuleCommandList.Command
+  fullName: August.Struct.ModuleCommandList.Command
+  nameWithType: ModuleCommandList.Command
+- uid: August.Struct.ModuleCommandList.MethodName
+  name: MethodName
+  href: api/August.Struct.ModuleCommandList.html#August_Struct_ModuleCommandList_MethodName
+  commentId: F:August.Struct.ModuleCommandList.MethodName
+  fullName: August.Struct.ModuleCommandList.MethodName
+  nameWithType: ModuleCommandList.MethodName
+- uid: August.Struct.ModuleCommandList.ReturnType
+  name: ReturnType
+  href: api/August.Struct.ModuleCommandList.html#August_Struct_ModuleCommandList_ReturnType
+  commentId: F:August.Struct.ModuleCommandList.ReturnType
+  fullName: August.Struct.ModuleCommandList.ReturnType
+  nameWithType: ModuleCommandList.ReturnType
 - uid: August.Struct.ModuleHeader
   name: ModuleHeader
   href: api/August.Struct.ModuleHeader.html
@@ -1438,6 +2588,43 @@ references:
   isSpec: "True"
   fullName: August.Struct.ModuleHeader.Version
   nameWithType: ModuleHeader.Version
+- uid: August.Struct.Properties
+  name: Properties
+  href: api/August.Struct.Properties.html
+  commentId: T:August.Struct.Properties
+  fullName: August.Struct.Properties
+  nameWithType: Properties
+- uid: August.Struct.Properties.Default
+  name: Default
+  href: api/August.Struct.Properties.html#August_Struct_Properties_Default
+  commentId: P:August.Struct.Properties.Default
+  fullName: August.Struct.Properties.Default
+  nameWithType: Properties.Default
+- uid: August.Struct.Properties.Default*
+  name: Default
+  href: api/August.Struct.Properties.html#August_Struct_Properties_Default_
+  commentId: Overload:August.Struct.Properties.Default
+  isSpec: "True"
+  fullName: August.Struct.Properties.Default
+  nameWithType: Properties.Default
+- uid: August.Struct.Properties.DefaultLoginAll
+  name: DefaultLoginAll
+  href: api/August.Struct.Properties.html#August_Struct_Properties_DefaultLoginAll
+  commentId: F:August.Struct.Properties.DefaultLoginAll
+  fullName: August.Struct.Properties.DefaultLoginAll
+  nameWithType: Properties.DefaultLoginAll
+- uid: August.Struct.Properties.ResetSessionAtRestart
+  name: ResetSessionAtRestart
+  href: api/August.Struct.Properties.html#August_Struct_Properties_ResetSessionAtRestart
+  commentId: F:August.Struct.Properties.ResetSessionAtRestart
+  fullName: August.Struct.Properties.ResetSessionAtRestart
+  nameWithType: Properties.ResetSessionAtRestart
+- uid: August.Struct.Properties.UpdateMilliseconds
+  name: UpdateMilliseconds
+  href: api/August.Struct.Properties.html#August_Struct_Properties_UpdateMilliseconds
+  commentId: F:August.Struct.Properties.UpdateMilliseconds
+  fullName: August.Struct.Properties.UpdateMilliseconds
+  nameWithType: Properties.UpdateMilliseconds
 - uid: August.TextFileReader
   name: TextFileReader
   href: api/August.TextFileReader.html
@@ -1483,6 +2670,45 @@ references:
   isSpec: "True"
   fullName: August.TextFileReader.DefaultData
   nameWithType: TextFileReader.DefaultData
+- uid: August.TextFileReader.Exit
+  name: Exit()
+  href: api/August.TextFileReader.html#August_TextFileReader_Exit
+  commentId: M:August.TextFileReader.Exit
+  fullName: August.TextFileReader.Exit()
+  nameWithType: TextFileReader.Exit()
+- uid: August.TextFileReader.Exit*
+  name: Exit
+  href: api/August.TextFileReader.html#August_TextFileReader_Exit_
+  commentId: Overload:August.TextFileReader.Exit
+  isSpec: "True"
+  fullName: August.TextFileReader.Exit
+  nameWithType: TextFileReader.Exit
+- uid: August.TextFileReader.frameworkContext
+  name: frameworkContext
+  href: api/August.TextFileReader.html#August_TextFileReader_frameworkContext
+  commentId: P:August.TextFileReader.frameworkContext
+  fullName: August.TextFileReader.frameworkContext
+  nameWithType: TextFileReader.frameworkContext
+- uid: August.TextFileReader.frameworkContext*
+  name: frameworkContext
+  href: api/August.TextFileReader.html#August_TextFileReader_frameworkContext_
+  commentId: Overload:August.TextFileReader.frameworkContext
+  isSpec: "True"
+  fullName: August.TextFileReader.frameworkContext
+  nameWithType: TextFileReader.frameworkContext
+- uid: August.TextFileReader.Initialize
+  name: Initialize()
+  href: api/August.TextFileReader.html#August_TextFileReader_Initialize
+  commentId: M:August.TextFileReader.Initialize
+  fullName: August.TextFileReader.Initialize()
+  nameWithType: TextFileReader.Initialize()
+- uid: August.TextFileReader.Initialize*
+  name: Initialize
+  href: api/August.TextFileReader.html#August_TextFileReader_Initialize_
+  commentId: Overload:August.TextFileReader.Initialize
+  isSpec: "True"
+  fullName: August.TextFileReader.Initialize
+  nameWithType: TextFileReader.Initialize
 - uid: August.TextFileReader.Load
   name: Load()
   href: api/August.TextFileReader.html#August_TextFileReader_Load
@@ -1509,6 +2735,32 @@ references:
   isSpec: "True"
   fullName: August.TextFileReader.LoadData
   nameWithType: TextFileReader.LoadData
+- uid: August.TextFileReader.ModuleLoaded
+  name: ModuleLoaded()
+  href: api/August.TextFileReader.html#August_TextFileReader_ModuleLoaded
+  commentId: M:August.TextFileReader.ModuleLoaded
+  fullName: August.TextFileReader.ModuleLoaded()
+  nameWithType: TextFileReader.ModuleLoaded()
+- uid: August.TextFileReader.ModuleLoaded*
+  name: ModuleLoaded
+  href: api/August.TextFileReader.html#August_TextFileReader_ModuleLoaded_
+  commentId: Overload:August.TextFileReader.ModuleLoaded
+  isSpec: "True"
+  fullName: August.TextFileReader.ModuleLoaded
+  nameWithType: TextFileReader.ModuleLoaded
+- uid: August.TextFileReader.ModuleUnloading
+  name: ModuleUnloading()
+  href: api/August.TextFileReader.html#August_TextFileReader_ModuleUnloading
+  commentId: M:August.TextFileReader.ModuleUnloading
+  fullName: August.TextFileReader.ModuleUnloading()
+  nameWithType: TextFileReader.ModuleUnloading()
+- uid: August.TextFileReader.ModuleUnloading*
+  name: ModuleUnloading
+  href: api/August.TextFileReader.html#August_TextFileReader_ModuleUnloading_
+  commentId: Overload:August.TextFileReader.ModuleUnloading
+  isSpec: "True"
+  fullName: August.TextFileReader.ModuleUnloading
+  nameWithType: TextFileReader.ModuleUnloading
 - uid: August.TextFileReader.path
   name: path
   href: api/August.TextFileReader.html#August_TextFileReader_path
@@ -1535,12 +2787,12 @@ references:
   isSpec: "True"
   fullName: August.TextFileReader.Save
   nameWithType: TextFileReader.Save
-- uid: August.TextFileReader.SaveData(System.String)
-  name: SaveData(String)
-  href: api/August.TextFileReader.html#August_TextFileReader_SaveData_System_String_
-  commentId: M:August.TextFileReader.SaveData(System.String)
-  fullName: August.TextFileReader.SaveData(System.String)
-  nameWithType: TextFileReader.SaveData(String)
+- uid: August.TextFileReader.SaveData(System.Object)
+  name: SaveData(Object)
+  href: api/August.TextFileReader.html#August_TextFileReader_SaveData_System_Object_
+  commentId: M:August.TextFileReader.SaveData(System.Object)
+  fullName: August.TextFileReader.SaveData(System.Object)
+  nameWithType: TextFileReader.SaveData(Object)
 - uid: August.TextFileReader.SaveData*
   name: SaveData
   href: api/August.TextFileReader.html#August_TextFileReader_SaveData_
@@ -1548,6 +2800,32 @@ references:
   isSpec: "True"
   fullName: August.TextFileReader.SaveData
   nameWithType: TextFileReader.SaveData
+- uid: August.TextFileReader.Start
+  name: Start()
+  href: api/August.TextFileReader.html#August_TextFileReader_Start
+  commentId: M:August.TextFileReader.Start
+  fullName: August.TextFileReader.Start()
+  nameWithType: TextFileReader.Start()
+- uid: August.TextFileReader.Start*
+  name: Start
+  href: api/August.TextFileReader.html#August_TextFileReader_Start_
+  commentId: Overload:August.TextFileReader.Start
+  isSpec: "True"
+  fullName: August.TextFileReader.Start
+  nameWithType: TextFileReader.Start
+- uid: August.TextFileReader.Update
+  name: Update()
+  href: api/August.TextFileReader.html#August_TextFileReader_Update
+  commentId: M:August.TextFileReader.Update
+  fullName: August.TextFileReader.Update()
+  nameWithType: TextFileReader.Update()
+- uid: August.TextFileReader.Update*
+  name: Update
+  href: api/August.TextFileReader.html#August_TextFileReader_Update_
+  commentId: Overload:August.TextFileReader.Update
+  isSpec: "True"
+  fullName: August.TextFileReader.Update
+  nameWithType: TextFileReader.Update
 - uid: August.TextFileReader.vaild
   name: vaild
   href: api/August.TextFileReader.html#August_TextFileReader_vaild

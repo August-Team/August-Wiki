@@ -90,30 +90,6 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">FrameworkContext</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="August.html">August</a></h6>
   <h6><strong>Assembly</strong>: AugustCore.dll</h6>
   <h5 id="August_FrameworkContext_syntax">Syntax</h5>
@@ -124,18 +100,18 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_FrameworkContext__ctor_System_Func_System_String_System_String_August_AugustAction__System_Func_System_String_System_String_System_Type_August_AugustFunc__.md&amp;value=---%0Auid%3A%20August.FrameworkContext.%23ctor(System.Func%7BSystem.String%2CSystem.String%2CAugust.AugustAction%7D%2CSystem.Func%7BSystem.String%2CSystem.String%2CSystem.Type%2CAugust.AugustFunc%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_FrameworkContext__ctor_System_Func_System_Type_System_Object__System_Func_System_String_System_String_August_AugustAction__System_Func_System_String_System_String_System_Type_August_AugustFunc__.md&amp;value=---%0Auid%3A%20August.FrameworkContext.%23ctor(System.Func%7BSystem.Type%2CSystem.Object%7D%2CSystem.Func%7BSystem.String%2CSystem.String%2CAugust.AugustAction%7D%2CSystem.Func%7BSystem.String%2CSystem.String%2CSystem.Type%2CAugust.AugustFunc%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Module/FrameworkContext.cs/#L10">View Source</a>
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Module/FrameworkContext.cs/#L11">View Source</a>
   </span>
   <a id="August_FrameworkContext__ctor_" data-uid="August.FrameworkContext.#ctor*"></a>
-  <h4 id="August_FrameworkContext__ctor_System_Func_System_String_System_String_August_AugustAction__System_Func_System_String_System_String_System_Type_August_AugustFunc__" data-uid="August.FrameworkContext.#ctor(System.Func{System.String,System.String,August.AugustAction},System.Func{System.String,System.String,System.Type,August.AugustFunc})">FrameworkContext(Func&lt;String, String, AugustAction&gt;, Func&lt;String, String, Type, AugustFunc&gt;)</h4>
+  <h4 id="August_FrameworkContext__ctor_System_Func_System_Type_System_Object__System_Func_System_String_System_String_August_AugustAction__System_Func_System_String_System_String_System_Type_August_AugustFunc__" data-uid="August.FrameworkContext.#ctor(System.Func{System.Type,System.Object},System.Func{System.String,System.String,August.AugustAction},System.Func{System.String,System.String,System.Type,August.AugustFunc})">FrameworkContext(Func&lt;Type, Object&gt;, Func&lt;String, String, AugustAction&gt;, Func&lt;String, String, Type, AugustFunc&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public FrameworkContext(Func&lt;string, string, AugustAction&gt; getFrameworkAction, Func&lt;string, string, Type, AugustFunc&gt; getFrameworkFunc)</code></pre>
+    <pre><code class="lang-csharp hljs">public FrameworkContext(Func&lt;Type, object&gt; getClass, Func&lt;string, string, AugustAction&gt; getFrameworkAction, Func&lt;string, string, Type, AugustFunc&gt; getFrameworkFunc)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -147,6 +123,11 @@
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Type</span>, <span class="xref">System.Object</span>&gt;</td>
+        <td><span class="parametername">getClass</span></td>
+        <td></td>
+      </tr>
       <tr>
         <td><span class="xref">System.Func</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>, <a class="xref" href="August.AugustAction.html">AugustAction</a>&gt;</td>
         <td><span class="parametername">getFrameworkAction</span></td>
@@ -166,7 +147,7 @@
     <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_FrameworkContext_GetCommandAction_System_String_System_String_.md&amp;value=---%0Auid%3A%20August.FrameworkContext.GetCommandAction(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Module/FrameworkContext.cs/#L21">View Source</a>
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Module/FrameworkContext.cs/#L33">View Source</a>
   </span>
   <a id="August_FrameworkContext_GetCommandAction_" data-uid="August.FrameworkContext.GetCommandAction*"></a>
   <h4 id="August_FrameworkContext_GetCommandAction_System_String_System_String_" data-uid="August.FrameworkContext.GetCommandAction(System.String,System.String)">GetCommandAction(String, String)</h4>
@@ -174,7 +155,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AugustAction GetCommandAction(string module, string command)</code></pre>
+    <pre><code class="lang-csharp hljs">public AugustAction GetCommandAction(string module, string fullcommand)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -189,6 +170,63 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">module</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fullcommand</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="August.AugustAction.html">AugustAction</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_FrameworkContext_GetCommandAction_System_String_System_String_System_String_.md&amp;value=---%0Auid%3A%20August.FrameworkContext.GetCommandAction(System.String%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Module/FrameworkContext.cs/#L28">View Source</a>
+  </span>
+  <a id="August_FrameworkContext_GetCommandAction_" data-uid="August.FrameworkContext.GetCommandAction*"></a>
+  <h4 id="August_FrameworkContext_GetCommandAction_System_String_System_String_System_String_" data-uid="August.FrameworkContext.GetCommandAction(System.String,System.String,System.String)">GetCommandAction(String, String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AugustAction GetCommandAction(string module, string group, string command)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">module</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">group</span></td>
         <td></td>
       </tr>
       <tr>
@@ -218,7 +256,7 @@
     <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_FrameworkContext_GetCommandFunc__1_System_String_System_String_.md&amp;value=---%0Auid%3A%20August.FrameworkContext.GetCommandFunc%60%601(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Module/FrameworkContext.cs/#L16">View Source</a>
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Module/FrameworkContext.cs/#L23">View Source</a>
   </span>
   <a id="August_FrameworkContext_GetCommandFunc_" data-uid="August.FrameworkContext.GetCommandFunc*"></a>
   <h4 id="August_FrameworkContext_GetCommandFunc__1_System_String_System_String_" data-uid="August.FrameworkContext.GetCommandFunc``1(System.String,System.String)">GetCommandFunc&lt;T&gt;(String, String)</h4>
@@ -226,7 +264,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AugustFunc GetCommandFunc&lt;T&gt;(string module, string command)</code></pre>
+    <pre><code class="lang-csharp hljs">public AugustFunc GetCommandFunc&lt;T&gt;(string module, string fullcommand)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -241,6 +279,78 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">module</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fullcommand</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="August.AugustFunc.html">AugustFunc</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_FrameworkContext_GetCommandFunc__1_System_String_System_String_System_String_.md&amp;value=---%0Auid%3A%20August.FrameworkContext.GetCommandFunc%60%601(System.String%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Module/FrameworkContext.cs/#L18">View Source</a>
+  </span>
+  <a id="August_FrameworkContext_GetCommandFunc_" data-uid="August.FrameworkContext.GetCommandFunc*"></a>
+  <h4 id="August_FrameworkContext_GetCommandFunc__1_System_String_System_String_System_String_" data-uid="August.FrameworkContext.GetCommandFunc``1(System.String,System.String,System.String)">GetCommandFunc&lt;T&gt;(String, String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AugustFunc GetCommandFunc&lt;T&gt;(string module, string group, string command)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">module</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">group</span></td>
         <td></td>
       </tr>
       <tr>
@@ -282,10 +392,107 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_FrameworkContext_GetInstanceClass_System_Type_.md&amp;value=---%0Auid%3A%20August.FrameworkContext.GetInstanceClass(System.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Module/FrameworkContext.cs/#L51">View Source</a>
+  </span>
+  <a id="August_FrameworkContext_GetInstanceClass_" data-uid="August.FrameworkContext.GetInstanceClass*"></a>
+  <h4 id="August_FrameworkContext_GetInstanceClass_System_Type_" data-uid="August.FrameworkContext.GetInstanceClass(System.Type)">GetInstanceClass(Type)</h4>
+  <div class="markdown level1 summary"><p>Get current assembly class type instance</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object GetInstanceClass(Type type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_FrameworkContext_GetInstanceClass__1.md&amp;value=---%0Auid%3A%20August.FrameworkContext.GetInstanceClass%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Module/FrameworkContext.cs/#L42">View Source</a>
+  </span>
+  <a id="August_FrameworkContext_GetInstanceClass_" data-uid="August.FrameworkContext.GetInstanceClass*"></a>
+  <h4 id="August_FrameworkContext_GetInstanceClass__1" data-uid="August.FrameworkContext.GetInstanceClass``1">GetInstanceClass&lt;T&gt;()</h4>
+  <div class="markdown level1 summary"><p>Get current assembly class type instance</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T GetInstanceClass&lt;T&gt;()
+
+    where T : class</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type target</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_FrameworkContext_InvokeCommandAction_System_String_System_String_System_Object___.md&amp;value=---%0Auid%3A%20August.FrameworkContext.InvokeCommandAction(System.String%2CSystem.String%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Module/FrameworkContext.cs/#L38">View Source</a>
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Module/FrameworkContext.cs/#L68">View Source</a>
   </span>
   <a id="August_FrameworkContext_InvokeCommandAction_" data-uid="August.FrameworkContext.InvokeCommandAction*"></a>
   <h4 id="August_FrameworkContext_InvokeCommandAction_System_String_System_String_System_Object___" data-uid="August.FrameworkContext.InvokeCommandAction(System.String,System.String,System.Object[])">InvokeCommandAction(String, String, Object[])</h4>
@@ -342,7 +549,7 @@
     <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_FrameworkContext_InvokeCommandFunc__1_System_String_System_String_System_Object_____0__.md&amp;value=---%0Auid%3A%20August.FrameworkContext.InvokeCommandFunc%60%601(System.String%2CSystem.String%2CSystem.Object%5B%5D%2C%60%600%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Module/FrameworkContext.cs/#L26">View Source</a>
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Module/FrameworkContext.cs/#L56">View Source</a>
   </span>
   <a id="August_FrameworkContext_InvokeCommandFunc_" data-uid="August.FrameworkContext.InvokeCommandFunc*"></a>
   <h4 id="August_FrameworkContext_InvokeCommandFunc__1_System_String_System_String_System_Object_____0__" data-uid="August.FrameworkContext.InvokeCommandFunc``1(System.String,System.String,System.Object[],``0@)">InvokeCommandFunc&lt;T&gt;(String, String, Object[], out T)</h4>

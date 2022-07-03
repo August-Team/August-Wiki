@@ -83,7 +83,9 @@
   
   <h1 id="August_IDebug" data-uid="August.IDebug" class="text-break">Interface IDebug
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>August log behaviour,<br>
+Log system will print the one without using tag filter first.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="August.html">August</a></h6>
   <h6><strong>Assembly</strong>: AugustCore.dll</h6>
@@ -91,22 +93,212 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public interface IDebug</code></pre>
   </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_IDebug_block.md&amp;value=---%0Auid%3A%20August.IDebug.block%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Interface/IDebug.cs/#L16">View Source</a>
+  </span>
+  <a id="August_IDebug_block_" data-uid="August.IDebug.block*"></a>
+  <h4 id="August_IDebug_block" data-uid="August.IDebug.block">block</h4>
+  <div class="markdown level1 summary"><p>Block the log when tag filter regex is match <br>
+This means only print once</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool block { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_IDebug_errorColor.md&amp;value=---%0Auid%3A%20August.IDebug.errorColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Interface/IDebug.cs/#L36">View Source</a>
+  </span>
+  <a id="August_IDebug_errorColor_" data-uid="August.IDebug.errorColor*"></a>
+  <h4 id="August_IDebug_errorColor" data-uid="August.IDebug.errorColor">errorColor</h4>
+  <div class="markdown level1 summary"><p>Error log color</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ConsoleColor errorColor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ConsoleColor</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_IDebug_logColor.md&amp;value=---%0Auid%3A%20August.IDebug.logColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Interface/IDebug.cs/#L28">View Source</a>
+  </span>
+  <a id="August_IDebug_logColor_" data-uid="August.IDebug.logColor*"></a>
+  <h4 id="August_IDebug_logColor" data-uid="August.IDebug.logColor">logColor</h4>
+  <div class="markdown level1 summary"><p>Normal log color</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ConsoleColor logColor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ConsoleColor</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_IDebug_tagFilter.md&amp;value=---%0Auid%3A%20August.IDebug.tagFilter%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Interface/IDebug.cs/#L24">View Source</a>
+  </span>
+  <a id="August_IDebug_tagFilter_" data-uid="August.IDebug.tagFilter*"></a>
+  <h4 id="August_IDebug_tagFilter" data-uid="August.IDebug.tagFilter">tagFilter</h4>
+  <div class="markdown level1 summary"><p>Filter regex, try to match with tag string with it</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Regex tagFilter { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Text.RegularExpressions.Regex</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_IDebug_useFilter.md&amp;value=---%0Auid%3A%20August.IDebug.useFilter%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Interface/IDebug.cs/#L20">View Source</a>
+  </span>
+  <a id="August_IDebug_useFilter_" data-uid="August.IDebug.useFilter*"></a>
+  <h4 id="August_IDebug_useFilter" data-uid="August.IDebug.useFilter">useFilter</h4>
+  <div class="markdown level1 summary"><p>Specified log tag filter</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool useFilter { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_IDebug_warningColor.md&amp;value=---%0Auid%3A%20August.IDebug.warningColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Interface/IDebug.cs/#L32">View Source</a>
+  </span>
+  <a id="August_IDebug_warningColor_" data-uid="August.IDebug.warningColor*"></a>
+  <h4 id="August_IDebug_warningColor" data-uid="August.IDebug.warningColor">warningColor</h4>
+  <div class="markdown level1 summary"><p>Warning log color</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ConsoleColor warningColor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ConsoleColor</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_IDebug_BotLog_System_String_System_String_System_Object_System_ConsoleColor_.md&amp;value=---%0Auid%3A%20August.IDebug.BotLog(System.String%2CSystem.String%2CSystem.Object%2CSystem.ConsoleColor)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_IDebug_ErrorLog_System_String_System_Object_.md&amp;value=---%0Auid%3A%20August.IDebug.ErrorLog(System.String%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Interface/IDebug.cs/#L8">View Source</a>
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Interface/IDebug.cs/#L54">View Source</a>
   </span>
-  <a id="August_IDebug_BotLog_" data-uid="August.IDebug.BotLog*"></a>
-  <h4 id="August_IDebug_BotLog_System_String_System_String_System_Object_System_ConsoleColor_" data-uid="August.IDebug.BotLog(System.String,System.String,System.Object,System.ConsoleColor)">BotLog(String, String, Object, ConsoleColor)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="August_IDebug_ErrorLog_" data-uid="August.IDebug.ErrorLog*"></a>
+  <h4 id="August_IDebug_ErrorLog_System_String_System_Object_" data-uid="August.IDebug.ErrorLog(System.String,System.Object)">ErrorLog(String, Object)</h4>
+  <div class="markdown level1 summary"><p>Universal print error message</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void BotLog(string tag, string botname, object message, ConsoleColor color)</code></pre>
+    <pre><code class="lang-csharp hljs">void ErrorLog(string tag, object message)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -124,18 +316,46 @@
         <td></td>
       </tr>
       <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_IDebug_Log_System_String_System_Object_.md&amp;value=---%0Auid%3A%20August.IDebug.Log(System.String%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Interface/IDebug.cs/#L42">View Source</a>
+  </span>
+  <a id="August_IDebug_Log_" data-uid="August.IDebug.Log*"></a>
+  <h4 id="August_IDebug_Log_System_String_System_Object_" data-uid="August.IDebug.Log(System.String,System.Object)">Log(String, Object)</h4>
+  <div class="markdown level1 summary"><p>Universal print message</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Log(string tag, object message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">botname</span></td>
+        <td><span class="parametername">tag</span></td>
         <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">message</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.ConsoleColor</span></td>
-        <td><span class="parametername">color</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -145,11 +365,12 @@
     <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_IDebug_Log_System_String_System_Object_System_ConsoleColor_.md&amp;value=---%0Auid%3A%20August.IDebug.Log(System.String%2CSystem.Object%2CSystem.ConsoleColor)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Interface/IDebug.cs/#L7">View Source</a>
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Interface/IDebug.cs/#L46">View Source</a>
   </span>
   <a id="August_IDebug_Log_" data-uid="August.IDebug.Log*"></a>
   <h4 id="August_IDebug_Log_System_String_System_Object_System_ConsoleColor_" data-uid="August.IDebug.Log(System.String,System.Object,System.ConsoleColor)">Log(String, Object, ConsoleColor)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Universal print message</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -178,6 +399,44 @@
       <tr>
         <td><span class="xref">System.ConsoleColor</span></td>
         <td><span class="parametername">color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_IDebug_WarningLog_System_String_System_Object_.md&amp;value=---%0Auid%3A%20August.IDebug.WarningLog(System.String%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Interface/IDebug.cs/#L50">View Source</a>
+  </span>
+  <a id="August_IDebug_WarningLog_" data-uid="August.IDebug.WarningLog*"></a>
+  <h4 id="August_IDebug_WarningLog_System_String_System_Object_" data-uid="August.IDebug.WarningLog(System.String,System.Object)">WarningLog(String, Object)</h4>
+  <div class="markdown level1 summary"><p>Universal print warning message</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void WarningLog(string tag, object message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">tag</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">message</span></td>
         <td></td>
       </tr>
     </tbody>

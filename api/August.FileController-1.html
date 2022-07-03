@@ -95,8 +95,16 @@ The subclass must have attribute <a class="xref" href="August.FrameworkFilePathA
     <div class="level1"><a class="xref" href="August.FileControllerBase.html">FileControllerBase</a></div>
     <div class="level2"><span class="xref">FileController&lt;T&gt;</span></div>
   </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="August.ICustomModuleEvent.html">ICustomModuleEvent</a></div>
+    <div><a class="xref" href="August.IController.html">IController</a></div>
+  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="August.FileControllerBase.html#August_FileControllerBase_frameworkContext">FileControllerBase.frameworkContext</a>
+    </div>
     <div>
       <a class="xref" href="August.FileControllerBase.html#August_FileControllerBase_type">FileControllerBase.type</a>
     </div>
@@ -110,32 +118,29 @@ The subclass must have attribute <a class="xref" href="August.FrameworkFilePathA
       <a class="xref" href="August.FileControllerBase.html#August_FileControllerBase_vaild">FileControllerBase.vaild</a>
     </div>
     <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
+      <a class="xref" href="August.FileControllerBase.html#August_FileControllerBase_Initialize">FileControllerBase.Initialize()</a>
     </div>
     <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+      <a class="xref" href="August.FileControllerBase.html#August_FileControllerBase_Start">FileControllerBase.Start()</a>
     </div>
     <div>
-      <span class="xref">System.Object.GetHashCode()</span>
+      <a class="xref" href="August.FileControllerBase.html#August_FileControllerBase_Update">FileControllerBase.Update()</a>
     </div>
     <div>
-      <span class="xref">System.Object.GetType()</span>
+      <a class="xref" href="August.FileControllerBase.html#August_FileControllerBase_ModuleLoaded">FileControllerBase.ModuleLoaded()</a>
     </div>
     <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
+      <a class="xref" href="August.FileControllerBase.html#August_FileControllerBase_ModuleUnloading">FileControllerBase.ModuleUnloading()</a>
     </div>
     <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
+      <a class="xref" href="August.FileControllerBase.html#August_FileControllerBase_Exit">FileControllerBase.Exit()</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="August.html">August</a></h6>
   <h6><strong>Assembly</strong>: AugustCore.dll</h6>
   <h5 id="August_FileController_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class FileController&lt;T&gt; : FileControllerBase</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class FileController&lt;T&gt; : FileControllerBase, ICustomModuleEvent, IController</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -171,7 +176,7 @@ public class NewData {
     <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_FileController_1__ctor.md&amp;value=---%0Auid%3A%20August.FileController%601.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/FileController.cs/#L58">View Source</a>
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Module/FileController.cs/#L58">View Source</a>
   </span>
   <a id="August_FileController_1__ctor_" data-uid="August.FileController`1.#ctor*"></a>
   <h4 id="August_FileController_1__ctor" data-uid="August.FileController`1.#ctor">FileController()</h4>
@@ -190,7 +195,7 @@ It will vailated to class and set the use properties.</p>
     <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_FileController_1_data.md&amp;value=---%0Auid%3A%20August.FileController%601.data%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/FileController.cs/#L32">View Source</a>
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Module/FileController.cs/#L32">View Source</a>
   </span>
   <a id="August_FileController_1_data_" data-uid="August.FileController`1.data*"></a>
   <h4 id="August_FileController_1_data" data-uid="August.FileController`1.data">data</h4>
@@ -223,7 +228,7 @@ It will vailated to class and set the use properties.</p>
     <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_FileController_1_DefaultData.md&amp;value=---%0Auid%3A%20August.FileController%601.DefaultData%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/FileController.cs/#L100">View Source</a>
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Module/FileController.cs/#L100">View Source</a>
   </span>
   <a id="August_FileController_1_DefaultData_" data-uid="August.FileController`1.DefaultData*"></a>
   <h4 id="August_FileController_1_DefaultData" data-uid="August.FileController`1.DefaultData">DefaultData()</h4>
@@ -256,16 +261,15 @@ It will vailated to class and set the use properties.</p>
     <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_FileController_1_Load.md&amp;value=---%0Auid%3A%20August.FileController%601.Load%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/FileController.cs/#L113">View Source</a>
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Module/FileController.cs/#L107">View Source</a>
   </span>
   <a id="August_FileController_1_Load_" data-uid="August.FileController`1.Load*"></a>
   <h4 id="August_FileController_1_Load" data-uid="August.FileController`1.Load">Load()</h4>
-  <div class="markdown level1 summary"><p>Load data from target file</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public object Load()</code></pre>
+    <pre><code class="lang-csharp hljs">public override object Load()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -282,50 +286,52 @@ It will vailated to class and set the use properties.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="August.FileControllerBase.html#August_FileControllerBase_Load">FileControllerBase.Load()</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_FileController_1_LoadData.md&amp;value=---%0Auid%3A%20August.FileController%601.LoadData%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/FileController.cs/#L133">View Source</a>
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Module/FileController.cs/#L122">View Source</a>
   </span>
   <a id="August_FileController_1_LoadData_" data-uid="August.FileController`1.LoadData*"></a>
   <h4 id="August_FileController_1_LoadData" data-uid="August.FileController`1.LoadData">LoadData()</h4>
-  <div class="markdown level1 summary"><p>Load data from target file to data properties <br>
-If file does not exist, it will take default data to create one</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void LoadData()</code></pre>
+    <pre><code class="lang-csharp hljs">public override void LoadData()</code></pre>
   </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="August.FileControllerBase.html#August_FileControllerBase_LoadData">FileControllerBase.LoadData()</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_FileController_1_Save.md&amp;value=---%0Auid%3A%20August.FileController%601.Save%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/FileController.cs/#L104">View Source</a>
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Module/FileController.cs/#L102">View Source</a>
   </span>
   <a id="August_FileController_1_Save_" data-uid="August.FileController`1.Save*"></a>
   <h4 id="August_FileController_1_Save" data-uid="August.FileController`1.Save">Save()</h4>
-  <div class="markdown level1 summary"><p>Save current stored data</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Save()</code></pre>
+    <pre><code class="lang-csharp hljs">public override void Save()</code></pre>
   </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="August.FileControllerBase.html#August_FileControllerBase_Save">FileControllerBase.Save()</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_FileController_1_SaveData__0_.md&amp;value=---%0Auid%3A%20August.FileController%601.SaveData(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/FileController.cs/#L124">View Source</a>
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Module/FileController.cs/#L117">View Source</a>
   </span>
   <a id="August_FileController_1_SaveData_" data-uid="August.FileController`1.SaveData*"></a>
   <h4 id="August_FileController_1_SaveData__0_" data-uid="August.FileController`1.SaveData(`0)">SaveData(T)</h4>
-  <div class="markdown level1 summary"><p>Set input data to current data and save it</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -344,11 +350,51 @@ If file does not exist, it will take default data to create one</p>
       <tr>
         <td><span class="xref">T</span></td>
         <td><span class="parametername">t</span></td>
-        <td><p>Input data</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_FileController_1_SaveData_System_Object_.md&amp;value=---%0Auid%3A%20August.FileController%601.SaveData(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Module/FileController.cs/#L113">View Source</a>
+  </span>
+  <a id="August_FileController_1_SaveData_" data-uid="August.FileController`1.SaveData*"></a>
+  <h4 id="August_FileController_1_SaveData_System_Object_" data-uid="August.FileController`1.SaveData(System.Object)">SaveData(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void SaveData(object data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">data</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="August.FileControllerBase.html#August_FileControllerBase_SaveData_System_Object_">FileControllerBase.SaveData(Object)</a></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="August.ICustomModuleEvent.html">ICustomModuleEvent</a>
+  </div>
+  <div>
+      <a class="xref" href="August.IController.html">IController</a>
+  </div>
 </article>
           </div>
         </div>

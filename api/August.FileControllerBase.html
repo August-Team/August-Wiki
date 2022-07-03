@@ -93,35 +93,16 @@ Contain basic functionality and properties for the controller</p>
     <div class="level1"><span class="xref">FileControllerBase</span></div>
       <div class="level2"><a class="xref" href="August.FileController-1.html">FileController&lt;T&gt;</a></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="August.ICustomModuleEvent.html">ICustomModuleEvent</a></div>
+    <div><a class="xref" href="August.IController.html">IController</a></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="August.html">August</a></h6>
   <h6><strong>Assembly</strong>: AugustCore.dll</h6>
   <h5 id="August_FileControllerBase_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class FileControllerBase</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class FileControllerBase : ICustomModuleEvent, IController</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -130,7 +111,7 @@ Contain basic functionality and properties for the controller</p>
     <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_FileControllerBase_format.md&amp;value=---%0Auid%3A%20August.FileControllerBase.format%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/FileController.cs/#L163">View Source</a>
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Module/FileController.cs/#L163">View Source</a>
   </span>
   <a id="August_FileControllerBase_format_" data-uid="August.FileControllerBase.format*"></a>
   <h4 id="August_FileControllerBase_format" data-uid="August.FileControllerBase.format">format</h4>
@@ -158,10 +139,42 @@ Contain basic functionality and properties for the controller</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_FileControllerBase_frameworkContext.md&amp;value=---%0Auid%3A%20August.FileControllerBase.frameworkContext%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Module/FileController.cs/#L149">View Source</a>
+  </span>
+  <a id="August_FileControllerBase_frameworkContext_" data-uid="August.FileControllerBase.frameworkContext*"></a>
+  <h4 id="August_FileControllerBase_frameworkContext" data-uid="August.FileControllerBase.frameworkContext">frameworkContext</h4>
+  <div class="markdown level1 summary"><p>Framework context <br>
+Primary communication method with framework</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FrameworkContext frameworkContext { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="August.FrameworkContext.html">FrameworkContext</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_FileControllerBase_path.md&amp;value=---%0Auid%3A%20August.FileControllerBase.path%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/FileController.cs/#L167">View Source</a>
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Module/FileController.cs/#L167">View Source</a>
   </span>
   <a id="August_FileControllerBase_path_" data-uid="August.FileControllerBase.path*"></a>
   <h4 id="August_FileControllerBase_path" data-uid="August.FileControllerBase.path">path</h4>
@@ -192,7 +205,7 @@ Contain basic functionality and properties for the controller</p>
     <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_FileControllerBase_type.md&amp;value=---%0Auid%3A%20August.FileControllerBase.type%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/FileController.cs/#L159">View Source</a>
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Module/FileController.cs/#L159">View Source</a>
   </span>
   <a id="August_FileControllerBase_type_" data-uid="August.FileControllerBase.type*"></a>
   <h4 id="August_FileControllerBase_type" data-uid="August.FileControllerBase.type">type</h4>
@@ -223,7 +236,7 @@ Contain basic functionality and properties for the controller</p>
     <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_FileControllerBase_vaild.md&amp;value=---%0Auid%3A%20August.FileControllerBase.vaild%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/FileController.cs/#L171">View Source</a>
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Module/FileController.cs/#L171">View Source</a>
   </span>
   <a id="August_FileControllerBase_vaild_" data-uid="August.FileControllerBase.vaild*"></a>
   <h4 id="August_FileControllerBase_vaild" data-uid="August.FileControllerBase.vaild">vaild</h4>
@@ -256,7 +269,7 @@ Contain basic functionality and properties for the controller</p>
     <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_FileControllerBase_DefaultData.md&amp;value=---%0Auid%3A%20August.FileControllerBase.DefaultData%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/FileController.cs/#L176">View Source</a>
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Module/FileController.cs/#L176">View Source</a>
   </span>
   <a id="August_FileControllerBase_DefaultData_" data-uid="August.FileControllerBase.DefaultData*"></a>
   <h4 id="August_FileControllerBase_DefaultData" data-uid="August.FileControllerBase.DefaultData">DefaultData()</h4>
@@ -282,6 +295,285 @@ Contain basic functionality and properties for the controller</p>
       </tr>
     </tbody>
   </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_FileControllerBase_Exit.md&amp;value=---%0Auid%3A%20August.FileControllerBase.Exit%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Module/FileController.cs/#L188">View Source</a>
+  </span>
+  <a id="August_FileControllerBase_Exit_" data-uid="August.FileControllerBase.Exit*"></a>
+  <h4 id="August_FileControllerBase_Exit" data-uid="August.FileControllerBase.Exit">Exit()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Task Exit()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_FileControllerBase_Initialize.md&amp;value=---%0Auid%3A%20August.FileControllerBase.Initialize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Module/FileController.cs/#L183">View Source</a>
+  </span>
+  <a id="August_FileControllerBase_Initialize_" data-uid="August.FileControllerBase.Initialize*"></a>
+  <h4 id="August_FileControllerBase_Initialize" data-uid="August.FileControllerBase.Initialize">Initialize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Task Initialize()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_FileControllerBase_Load.md&amp;value=---%0Auid%3A%20August.FileControllerBase.Load%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Module/FileController.cs/#L180">View Source</a>
+  </span>
+  <a id="August_FileControllerBase_Load_" data-uid="August.FileControllerBase.Load*"></a>
+  <h4 id="August_FileControllerBase_Load" data-uid="August.FileControllerBase.Load">Load()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual object Load()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_FileControllerBase_LoadData.md&amp;value=---%0Auid%3A%20August.FileControllerBase.LoadData%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Module/FileController.cs/#L181">View Source</a>
+  </span>
+  <a id="August_FileControllerBase_LoadData_" data-uid="August.FileControllerBase.LoadData*"></a>
+  <h4 id="August_FileControllerBase_LoadData" data-uid="August.FileControllerBase.LoadData">LoadData()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void LoadData()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_FileControllerBase_ModuleLoaded.md&amp;value=---%0Auid%3A%20August.FileControllerBase.ModuleLoaded%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Module/FileController.cs/#L186">View Source</a>
+  </span>
+  <a id="August_FileControllerBase_ModuleLoaded_" data-uid="August.FileControllerBase.ModuleLoaded*"></a>
+  <h4 id="August_FileControllerBase_ModuleLoaded" data-uid="August.FileControllerBase.ModuleLoaded">ModuleLoaded()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Task ModuleLoaded()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_FileControllerBase_ModuleUnloading.md&amp;value=---%0Auid%3A%20August.FileControllerBase.ModuleUnloading%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Module/FileController.cs/#L187">View Source</a>
+  </span>
+  <a id="August_FileControllerBase_ModuleUnloading_" data-uid="August.FileControllerBase.ModuleUnloading*"></a>
+  <h4 id="August_FileControllerBase_ModuleUnloading" data-uid="August.FileControllerBase.ModuleUnloading">ModuleUnloading()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Task ModuleUnloading()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_FileControllerBase_Save.md&amp;value=---%0Auid%3A%20August.FileControllerBase.Save%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Module/FileController.cs/#L178">View Source</a>
+  </span>
+  <a id="August_FileControllerBase_Save_" data-uid="August.FileControllerBase.Save*"></a>
+  <h4 id="August_FileControllerBase_Save" data-uid="August.FileControllerBase.Save">Save()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Save()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_FileControllerBase_SaveData_System_Object_.md&amp;value=---%0Auid%3A%20August.FileControllerBase.SaveData(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Module/FileController.cs/#L179">View Source</a>
+  </span>
+  <a id="August_FileControllerBase_SaveData_" data-uid="August.FileControllerBase.SaveData*"></a>
+  <h4 id="August_FileControllerBase_SaveData_System_Object_" data-uid="August.FileControllerBase.SaveData(System.Object)">SaveData(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void SaveData(object data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">data</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_FileControllerBase_Start.md&amp;value=---%0Auid%3A%20August.FileControllerBase.Start%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Module/FileController.cs/#L184">View Source</a>
+  </span>
+  <a id="August_FileControllerBase_Start_" data-uid="August.FileControllerBase.Start*"></a>
+  <h4 id="August_FileControllerBase_Start" data-uid="August.FileControllerBase.Start">Start()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Task Start()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Elly2018/Auguest-Core/new/master/apiSpec/new?filename=August_FileControllerBase_Update.md&amp;value=---%0Auid%3A%20August.FileControllerBase.Update%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Elly2018/Auguest-Core/blob/master/Module/FileController.cs/#L185">View Source</a>
+  </span>
+  <a id="August_FileControllerBase_Update_" data-uid="August.FileControllerBase.Update*"></a>
+  <h4 id="August_FileControllerBase_Update" data-uid="August.FileControllerBase.Update">Update()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Task Update()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="August.ICustomModuleEvent.html">ICustomModuleEvent</a>
+  </div>
+  <div>
+      <a class="xref" href="August.IController.html">IController</a>
+  </div>
 </article>
           </div>
         </div>
